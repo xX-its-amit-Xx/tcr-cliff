@@ -43,9 +43,9 @@ _log = get_logger("data.download")
 VDJDB_URL = "https://raw.githubusercontent.com/antigenomics/vdjdb-db/master/latest-version.txt"
 
 #: McPAS-TCR full database export (human + mouse). https://friedmanlab.weizmann.ac.il/McPAS-TCR/
-#: NOTE: the direct CSV is now gated behind the website form (returns HTML); see
-#: :func:`load_mcpas` and DATASETS.md for the manual-download fallback.
-MCPAS_URL = "https://friedmanlab.weizmann.ac.il/McPAS-TCR/Download/McPAS-TCR.csv"
+#: The site migrated to an R/Shiny app; the old ``/Download/McPAS-TCR.csv`` path now
+#: 404s, but the CSV is still served statically at the app root (this URL).
+MCPAS_URL = "https://friedmanlab.weizmann.ac.il/McPAS-TCR/McPAS-TCR.csv"
 
 #: IEDB receptor/TCR export portal. Programmatic CSV export from the T cell receptor table.
 IEDB_URL = "https://www.iedb.org/downloader.php?file_name=doc/receptor_full_v3.zip"
@@ -128,7 +128,8 @@ def _download(url: str, dest: Path, *, timeout: float = 60.0) -> Path:
 def _read_table(path: Path, *, sep: str = "\t") -> pd.DataFrame:
     """Read a cached delimited table (utf-8 then latin-1), raising a pointed error."""
     last: Exception | None = None
-    for enc in ("utf-8", "latin-1"):
+    # utf-8-sig strips a BOM (McPAS ships one); latin-1 is the last-resort fallback.
+    for enc in ("utf-8-sig", "latin-1"):
         try:
             return pd.read_csv(path, sep=sep, low_memory=False, encoding=enc)
         except UnicodeDecodeError as exc:  # try the next encoding
@@ -300,13 +301,13 @@ def load_mcpas(cache_dir: str | Path | None = None) -> pd.DataFrame:
     dest = cache / "McPAS-TCR.csv"
     if not (dest.exists() and dest.stat().st_size > 0):
         _download(MCPAS_URL, dest)
-    # The direct CSV link is now gated behind the website form and returns an HTML
-    # page; detect that and point the user at the manual-download fallback.
+    # Defensive: if the app moves again and the URL 404s to an HTML page, detect that
+    # and point the user at the manual-download fallback rather than parsing HTML.
     if dest.read_bytes()[:64].lstrip()[:1] == b"<":
         dest.unlink(missing_ok=True)
         raise RuntimeError(
-            "McPAS-TCR's direct CSV link returned HTML, not data (the download is now "
-            "gated behind the website form). Download 'McPAS-TCR.csv' manually from "
+            "McPAS-TCR returned HTML, not CSV (the app URL may have moved again). "
+            "Download 'McPAS-TCR.csv' manually from "
             f"https://friedmanlab.weizmann.ac.il/McPAS-TCR/ and place it at {dest}, then "
             f"re-run. {_DATASETS_HINT}"
         )

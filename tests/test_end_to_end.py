@@ -46,7 +46,17 @@ def test_full_baseline_pipeline_and_cliff_report():
 
     report = cliff_aware_report(test, scores, pairs=pairs, threshold=0.5)
     # Every stratum present and the overall metric finite + better than chance.
-    assert set(report) == {"overall", "cliff_records", "non_cliff_records", "pair_level", "gap"}
+    assert set(report) == {
+        "overall",
+        "cliff_records",
+        "non_cliff_records",
+        "pair_level",
+        "enhanced",
+        "gap",
+    }
+    # Enhanced robust metrics are computed.
+    assert np.isfinite(report["enhanced"]["cliff_auc"])
+    assert "crg" in report["enhanced"]
     assert np.isfinite(report["overall"]["auroc"])
     assert report["overall"]["auroc"] > 0.6
     # Pair-level headline numbers are computed (cliff pairs exist in the toy test split).
@@ -65,7 +75,8 @@ def test_compare_models_table():
     rep = cliff_aware_report(test, predict_scores(model, test), pairs=pairs)
     tbl = compare_models({"baseline": rep})
     assert "cliff_record_auroc" in tbl.columns
-    assert "cliff_pair_dir_acc" in tbl.columns
+    assert "cliff_auc" in tbl.columns
+    assert "crg" in tbl.columns
     assert len(tbl) == 1
 
 

@@ -141,6 +141,30 @@ turns them into the headline numbers; `tcr_cliff.interpret` maps per-residue imp
 the canonical MHC-I anchor positions **P2** and **PΩ** (the peptide C-terminus) and the CDR3
 loop.
 
+### How we measure cliff-awareness (robust metrics)
+
+A single test split usually has too few cliffs for a stable per-record AUROC (it collapses to
+NaN/0/1). `tcr-cliff` therefore reports **pooled, bootstrapped, baseline-relative** cliff metrics
+(`tcr_cliff.eval.enhanced_cliff_metrics` and `cross_validated_cliff_eval`):
+
+- **Cliff-AUC** — the pooled within-pair probability the model scores the true binder above the
+  non-binder *across a cliff* (0.5 = chance), reported with a bootstrap 95% CI. Pooling over all
+  cliff pairs (and, in CV mode, across folds) makes it stable where record-AUROC is not.
+- **SALI-weighted Cliff-AUC** — weights each cliff by its steepness `|Δactivity| / edit-distance`
+  (Structure-Activity Landscape Index, Guha & Van Drie 2008, adapted to sequences), so the
+  sharpest single-residue cliffs dominate the score.
+- **Cliff Responsiveness Gap (CRG)** — a metric novel to this package:
+  `mean(|Δprediction| | cliff) − mean(|Δprediction| | smooth)`. It directly tests the thesis: a
+  cliff-aware model's output landscape is **rugged across opposite-outcome neighbours and smooth
+  across same-outcome ones** (CRG ≫ 0), whereas a similarity-smooth model gives near-identical
+  predictions to neighbours (CRG ≈ 0). Because it uses *every* neighbour pair, not just label
+  flips, it is far more data-efficient than flip-only metrics; a normalised effect size is also
+  reported.
+- **Lift over a 1-NN baseline** — a nearest-neighbour predictor (the binder label of the most
+  sequence-similar training record) fails on cliffs *by construction*; the model's Cliff-AUC lift
+  over it is the evidence it learned more than similarity (after van Tilborg, Alenicheva & Grisoni,
+  *J. Chem. Inf. Model.* 2022).
+
 ---
 
 ## CLI reference

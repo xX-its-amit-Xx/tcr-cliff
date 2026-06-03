@@ -48,14 +48,18 @@ def compare_models(reports: dict[str, dict]) -> pd.DataFrame:
     """
     rows = []
     for name, rep in reports.items():
+        enh = rep.get("enhanced", {})
         rows.append(
             {
                 "model": name,
                 "overall_auroc": rep["overall"].get("auroc"),
                 "cliff_record_auroc": rep["cliff_records"].get("auroc"),
-                "non_cliff_record_auroc": rep["non_cliff_records"].get("auroc"),
                 "auroc_gap": rep["gap"].get("auroc_gap"),
-                "cliff_pair_dir_acc": rep["pair_level"].get("cliff_pair_directional_accuracy"),
+                # Robust enhanced metrics (stable even when a split has few cliffs):
+                "cliff_auc": enh.get("cliff_auc"),
+                "sali_cliff_auc": enh.get("sali_weighted_cliff_auc"),
+                "crg": enh.get("crg"),
+                "crg_effect_size": enh.get("crg_effect_size"),
                 "cliff_recovery_rate": rep["pair_level"].get("cliff_recovery_rate"),
             }
         )

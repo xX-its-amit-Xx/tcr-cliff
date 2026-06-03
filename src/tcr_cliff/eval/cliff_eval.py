@@ -20,6 +20,7 @@ import pandas as pd
 from tcr_cliff._logging import get_logger
 from tcr_cliff.cliffs.detect import NeighborPair, find_neighbor_pairs, mark_cliff_membership
 from tcr_cliff.config import CliffConfig
+from tcr_cliff.eval.cliff_metrics import enhanced_cliff_metrics
 from tcr_cliff.eval.metrics import binary_metrics
 
 _log = get_logger("eval.cliff_eval")
@@ -133,6 +134,9 @@ def cliff_aware_report(
     pair_level = pair_directional_accuracy(pairs, y_score)
     pair_level["cliff_recovery_rate"] = cliff_recovery_rate(pairs, y_score, threshold=threshold)
 
+    # Robust, bootstrapped, SALI-weighted metrics + the Cliff Responsiveness Gap.
+    enhanced = enhanced_cliff_metrics(pairs, y_score)
+
     gap = {
         "auroc_gap": _safe_sub(non_m.get("auroc"), cliff_m.get("auroc")),
         "accuracy_gap": _safe_sub(non_m.get("accuracy"), cliff_m.get("accuracy")),
@@ -150,6 +154,7 @@ def cliff_aware_report(
         "cliff_records": cliff_m,
         "non_cliff_records": non_m,
         "pair_level": pair_level,
+        "enhanced": enhanced,
         "gap": gap,
     }
 
@@ -158,3 +163,114 @@ def _safe_sub(a, b) -> float:
     if a is None or b is None or not (np.isfinite(a) and np.isfinite(b)):
         return float("nan")
     return float(a - b)
+
+
+def cross_validated_cliff_eval(
+    df: pd.DataFrame,
+    fit_predict,
+    *,
+    cliff_cfg: CliffConfig | None = None,
+    n_splits: int = 5,
+    group_col: str = "peptide",
+    seed: int = 0,
+    n_boot: int = 1000,
+    with_nn_baseline: bool = True,
+) -> dict:
+    """Pool cliff comparisons across repeated grouped splits for a stable estimate.
+
+    A single split rarely has enough cliffs for a stable number; this runs ``n_splits``
+    leakage-safe grouped splits (grouping on ``group_col`` so a peptide—and thus a
+    cliff pair—never straddles train/test), trains a model per fold via the
+    ``fit_predict(train_df, test_df) -> scores`` callable, detects cliffs on each test
+    fold, and **pools the evaluated pairs across all folds** before computing Cliff-AUC
+    (with a bootstrap CI), the SALI-weighted Cliff-AUC, and the Cliff Responsiveness
+    Gap. Optionally also evaluates a 1-NN similarity baseline and reports the model's
+    lift over it (van Tilborg et al., 2022).
+
+    Parameters
+    ----------
+    df:
+        Full canonical pairs table.
+    fit_predict:
+        Callable ``(train_df, test_df) -> np.ndarray`` returning positive-class scores
+        aligned to ``test_df`` rows.
+    cliff_cfg, n_splits, group_col, seed, n_boot, with_nn_baseline:
+        Cliff definition, fold count, grouping key, RNG seed, bootstrap resamples, and
+        whether to compute the 1-NN baseline.
+
+    Returns
+    -------
+    dict
+        ``{"model": {...enhanced metrics...}, "nn_baseline": {...}, "cliff_auc_lift",
+        "n_folds", "n_cliff_flip_pairs"}``.
+    """
+    from tcr_cliff.eval.cliff_metrics import (
+        bootstrap_cliff_auc,
+        cliff_auc,
+        cliff_responsiveness_gap,
+        evaluate_pairs,
+        nearest_neighbor_scores,
+    )
+
+    cfg = cliff_cfg or CliffConfig()
+    groups = df[group_col].astype(str).to_numpy() if group_col in df.columns else None
+    rng = np.random.default_rng(seed)
+    uniq = np.array(sorted(set(groups))) if groups is not None else None
+
+    pooled_model: list = []
+    pooled_nn: list = []
+    for fold in range(n_splits):
+        if uniq is not None and len(uniq) >= n_splits:
+            rng.shuffle(uniq)
+            test_groups = set(uniq[: max(1, len(uniq) // n_splits)])
+            test_mask = np.isin(groups, list(test_groups))
+        else:  # not enough groups: fall back to random row splits
+            test_mask = rng.random(len(df)) < (1.0 / n_splits)
+        train_df = df.loc[~test_mask].reset_index(drop=True)
+        test_df = df.loc[test_mask].reset_index(drop=True)
+        if test_df.empty or train_df.empty:
+            continue
+        scores = np.asarray(fit_predict(train_df, test_df), dtype=float)
+        pairs = find_neighbor_pairs(test_df, cfg)
+        pooled_model.extend(evaluate_pairs(pairs, scores))
+        if with_nn_baseline:
+            nn = nearest_neighbor_scores(train_df, test_df, seed=seed)
+            pooled_nn.extend(evaluate_pairs(pairs, nn))
+        _log.info(
+            "CV fold %d/%d: %d test rows, %d cliff pairs pooled",
+            fold + 1,
+            n_splits,
+            len(test_df),
+            sum(p.is_cliff for p in pairs),
+        )
+
+    def _block(ev: list) -> dict:
+        pt, lo, hi = bootstrap_cliff_auc(ev, n_boot=n_boot, seed=seed)
+        return {
+            "cliff_auc": pt,
+            "cliff_auc_lo": lo,
+            "cliff_auc_hi": hi,
+            "sali_weighted_cliff_auc": cliff_auc(ev, weighted=True),
+            **cliff_responsiveness_gap(ev),
+        }
+
+    model_block = _block(pooled_model)
+    out = {
+        "model": model_block,
+        "n_folds": n_splits,
+        "n_cliff_flip_pairs": sum(1 for e in pooled_model if e.is_cliff and e.is_flip),
+    }
+    if with_nn_baseline and pooled_nn:
+        nn_block = _block(pooled_nn)
+        out["nn_baseline"] = nn_block
+        out["cliff_auc_lift"] = _safe_sub(model_block["cliff_auc"], nn_block["cliff_auc"])
+    _log.info(
+        "CV cliff-AUC=%.3f [%.3f, %.3f] | SALI=%.3f | CRG=%.4f | lift over 1-NN=%s",
+        model_block["cliff_auc"],
+        model_block["cliff_auc_lo"],
+        model_block["cliff_auc_hi"],
+        model_block["sali_weighted_cliff_auc"],
+        model_block["crg"],
+        f"{out.get('cliff_auc_lift', float('nan')):.3f}",
+    )
+    return out

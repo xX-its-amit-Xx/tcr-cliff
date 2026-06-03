@@ -40,7 +40,14 @@ def test_cliff_recovery_rate(tiny_df):
 def test_cliff_aware_report_structure(tiny_df):
     scores = np.array([0.9, 0.1, 0.85, 0.2])
     rep = cliff_aware_report(tiny_df, scores, cliff_cfg=CliffConfig(vary="both"))
-    assert set(rep) == {"overall", "cliff_records", "non_cliff_records", "pair_level", "gap"}
+    assert set(rep) == {
+        "overall",
+        "cliff_records",
+        "non_cliff_records",
+        "pair_level",
+        "enhanced",
+        "gap",
+    }
     assert rep["pair_level"]["n_cliff_pairs"] >= 1
     # length mismatch must raise
     try:
