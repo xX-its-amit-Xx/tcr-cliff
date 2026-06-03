@@ -23,6 +23,7 @@ import io
 import os
 import urllib.error
 import urllib.request
+import zipfile
 from pathlib import Path
 
 import pandas as pd
@@ -37,11 +38,14 @@ _log = get_logger("data.download")
 # They are NOT fetched during the build/test task; see DATASETS.md for details.
 # --------------------------------------------------------------------------- #
 
-#: VDJdb full export (curated TCR-epitope pairs). https://vdjdb.cdr3.net
+#: VDJdb release pointer. ``latest-version.txt`` lists release ZIP URLs (newest
+#: first); each ZIP contains ``vdjdb.slim.txt``. https://vdjdb.cdr3.net
 VDJDB_URL = "https://raw.githubusercontent.com/antigenomics/vdjdb-db/master/latest-version.txt"
 
-#: McPAS-TCR full database export (human + mouse). http://friedmanlab.weizmann.ac.il/McPAS-TCR/
-MCPAS_URL = "http://friedmanlab.weizmann.ac.il/McPAS-TCR/Download/McPAS-TCR.csv"
+#: McPAS-TCR full database export (human + mouse). https://friedmanlab.weizmann.ac.il/McPAS-TCR/
+#: NOTE: the direct CSV is now gated behind the website form (returns HTML); see
+#: :func:`load_mcpas` and DATASETS.md for the manual-download fallback.
+MCPAS_URL = "https://friedmanlab.weizmann.ac.il/McPAS-TCR/Download/McPAS-TCR.csv"
 
 #: IEDB receptor/TCR export portal. Programmatic CSV export from the T cell receptor table.
 IEDB_URL = "https://www.iedb.org/downloader.php?file_name=doc/receptor_full_v3.zip"
@@ -122,11 +126,32 @@ def _download(url: str, dest: Path, *, timeout: float = 60.0) -> Path:
 
 
 def _read_table(path: Path, *, sep: str = "\t") -> pd.DataFrame:
-    """Read a cached delimited table, raising a pointed error on failure."""
-    try:
-        return pd.read_csv(path, sep=sep, low_memory=False)
-    except Exception as exc:
-        raise RuntimeError(f"Failed to parse {path}: {exc}. {_DATASETS_HINT}") from exc
+    """Read a cached delimited table (utf-8 then latin-1), raising a pointed error."""
+    last: Exception | None = None
+    for enc in ("utf-8", "latin-1"):
+        try:
+            return pd.read_csv(path, sep=sep, low_memory=False, encoding=enc)
+        except UnicodeDecodeError as exc:  # try the next encoding
+            last = exc
+            continue
+        except Exception as exc:
+            raise RuntimeError(f"Failed to parse {path}: {exc}. {_DATASETS_HINT}") from exc
+    raise RuntimeError(f"Failed to parse {path}: {last}. {_DATASETS_HINT}")
+
+
+def _flatten_iedb_header(top: object, sub: object) -> str:
+    """Flatten an IEDB two-row header cell to ``"Group - Field"``.
+
+    Keeping the group prefix is essential: the alpha (``Chain 1``) and beta
+    (``Chain 2``) CDR3 columns share the field name ``CDR3 Curated`` and would
+    otherwise collide into a single ambiguous column.
+    """
+    top, sub = str(top), str(sub)
+    if "Unnamed" in sub:
+        return top.strip()
+    if "Unnamed" in top:
+        return sub.strip()
+    return f"{top} - {sub}".strip()
 
 
 def _finalize(df: pd.DataFrame, source: str) -> pd.DataFrame:
@@ -199,8 +224,23 @@ def load_vdjdb(cache_dir: str | Path | None = None) -> pd.DataFrame:
         ``DATASETS.md``.
     """
     cache = _resolve_cache_dir(cache_dir)
-    path = _download(VDJDB_URL, cache / "vdjdb_latest.txt")
-    raw = _read_table(path, sep="\t")
+    # 'latest-version.txt' lists release ZIP URLs (newest first); follow the first.
+    ver_path = _download(VDJDB_URL, cache / "vdjdb_latest.txt")
+    urls = [ln.strip() for ln in ver_path.read_text().splitlines() if ln.strip().startswith("http")]
+    if not urls:
+        raise RuntimeError(f"VDJdb latest-version.txt had no release URL. {_DATASETS_HINT}")
+    zip_path = _download(urls[0], cache / Path(urls[0]).name)
+    try:
+        with zipfile.ZipFile(zip_path) as zf:
+            members = [n for n in zf.namelist() if n.endswith("vdjdb.slim.txt")] or [
+                n for n in zf.namelist() if n.endswith("vdjdb.txt")
+            ]
+            if not members:
+                raise RuntimeError(f"No vdjdb table inside {zip_path}. {_DATASETS_HINT}")
+            with zf.open(members[0]) as fh:
+                raw = pd.read_csv(fh, sep="\t", low_memory=False)
+    except zipfile.BadZipFile as exc:
+        raise RuntimeError(f"VDJdb release not a valid ZIP: {exc}. {_DATASETS_HINT}") from exc
 
     cdr3 = _first_present(raw, ("cdr3", "CDR3", "cdr3b", "CDR3.beta"))
     pep = _first_present(raw, ("antigen.epitope", "Epitope", "antigen", "peptide"))
@@ -257,8 +297,20 @@ def load_mcpas(cache_dir: str | Path | None = None) -> pd.DataFrame:
         ``DATASETS.md``.
     """
     cache = _resolve_cache_dir(cache_dir)
-    path = _download(MCPAS_URL, cache / "McPAS-TCR.csv")
-    raw = _read_table(path, sep=",")
+    dest = cache / "McPAS-TCR.csv"
+    if not (dest.exists() and dest.stat().st_size > 0):
+        _download(MCPAS_URL, dest)
+    # The direct CSV link is now gated behind the website form and returns an HTML
+    # page; detect that and point the user at the manual-download fallback.
+    if dest.read_bytes()[:64].lstrip()[:1] == b"<":
+        dest.unlink(missing_ok=True)
+        raise RuntimeError(
+            "McPAS-TCR's direct CSV link returned HTML, not data (the download is now "
+            "gated behind the website form). Download 'McPAS-TCR.csv' manually from "
+            f"https://friedmanlab.weizmann.ac.il/McPAS-TCR/ and place it at {dest}, then "
+            f"re-run. {_DATASETS_HINT}"
+        )
+    raw = _read_table(dest, sep=",")
 
     cdr3 = _first_present(raw, ("CDR3.beta.aa", "CDR3b", "CDR3.beta", "cdr3b"))
     pep = _first_present(raw, ("Epitope.peptide", "Epitope", "peptide"))
@@ -313,28 +365,30 @@ def load_iedb(cache_dir: str | Path | None = None) -> pd.DataFrame:
     cache = _resolve_cache_dir(cache_dir)
     path = _download(IEDB_URL, cache / "iedb_receptor_full_v3.zip")
     try:
-        import zipfile
-
         with zipfile.ZipFile(path) as zf:
             members = [n for n in zf.namelist() if n.lower().endswith(".csv")]
             if not members:
                 raise RuntimeError(f"No CSV inside IEDB archive {path}. {_DATASETS_HINT}")
             with zf.open(members[0]) as fh:
                 raw = pd.read_csv(io.BytesIO(fh.read()), low_memory=False, header=[0, 1])
-        # IEDB uses a two-row header; flatten to the second level.
-        raw.columns = [str(b if b and "Unnamed" not in str(b) else a) for a, b in raw.columns]
+        # IEDB uses a two-row (group, field) header; keep the group to disambiguate the
+        # alpha (Chain 1) and beta (Chain 2) CDR3 columns.
+        raw.columns = [_flatten_iedb_header(a, b) for a, b in raw.columns]
     except RuntimeError:
         raise
     except Exception as exc:
         raise RuntimeError(f"Failed to read IEDB archive {path}: {exc}. {_DATASETS_HINT}") from exc
 
-    cdr3 = _first_present(raw, ("Chain 2 CDR3 Curated", "CDR3b", "CDR3 Curated", "cdr3b"))
-    pep = _first_present(raw, ("Description", "Epitope", "peptide"))
+    # The TCR beta chain is "Chain 2"; the epitope sequence lives in "Epitope - Name".
+    cdr3 = _first_present(
+        raw, ("Chain 2 - CDR3 Curated", "Chain 2 - CDR3 Calculated", "Chain 2 CDR3 Curated")
+    )
+    pep = _first_present(raw, ("Epitope - Name", "Epitope - Description", "Description", "Epitope"))
     if cdr3 is None or pep is None:
         raise RuntimeError(
             f"IEDB columns not recognised (have {list(raw.columns)[:12]}...). " f"{_DATASETS_HINT}"
         )
-    mhc = _first_present(raw, ("MHC Allele Names", "MHC", "HLA"))
+    mhc = _first_present(raw, ("Assay - MHC Allele Names", "MHC Allele Names", "MHC", "HLA"))
 
     out = pd.DataFrame(
         {

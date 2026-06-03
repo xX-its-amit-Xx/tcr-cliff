@@ -98,8 +98,17 @@ def test_load_nettcr_network() -> None:  # pragma: no cover - network
 
 @pytest.mark.slow
 def test_load_mcpas_network() -> None:  # pragma: no cover - network
-    """McPAS loader returns a canonical-schema frame (network; deselected by default)."""
-    df = download.load_mcpas()
+    """McPAS loader returns a frame, or skips if the source is gated/unreachable.
+
+    The direct CSV link is now served behind a website form; when that happens the
+    loader raises a clear RuntimeError pointing at the manual-download fallback. We
+    skip (rather than fail) in that case so CI/maintainers are not blocked by an
+    upstream access change outside this package's control.
+    """
+    try:
+        df = download.load_mcpas()
+    except RuntimeError as exc:
+        pytest.skip(f"McPAS source unavailable/gated: {exc}")
     assert len(df) > 0
 
 

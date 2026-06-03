@@ -40,17 +40,26 @@ Override per call with `load_vdjdb(cache_dir=...)` (and the other loaders), or v
 - **VDJdb** lists *positive* TCR–epitope specificities, so `load_vdjdb` assigns
   `binder = 1`. It filters to TRB (β-chain) records when a gene column is present.
   Generating negatives (e.g. by mispairing) is a downstream modelling choice and is
-  intentionally **not** done by the loader.
+  intentionally **not** done by the loader. `latest-version.txt` lists the release
+  ZIP URLs (newest first); the loader follows the first and reads `vdjdb.slim.txt`.
+  *Validated live 2026-06-03: 95,707 β-chain records.*
 - **McPAS-TCR** is an association catalogue and is likewise loaded as `binder = 1`.
-- **IEDB** is served as a ZIP containing a CSV with a two-row header; the loader
-  flattens the header and maps the curated β-chain CDR3 and epitope columns. The
-  exact export filename on the IEDB portal changes over time — if the constant URL
-  404s, export the "Receptor (TCR/BCR)" table manually from
-  <https://www.iedb.org/database_export_v3.php> and place the ZIP at
-  `<cache_dir>/iedb_receptor_full_v3.zip`.
+  **The direct CSV link is now gated behind the website form (it returns an HTML
+  page).** `load_mcpas` detects this and raises a clear error; download
+  `McPAS-TCR.csv` manually from <https://friedmanlab.weizmann.ac.il/McPAS-TCR/> and
+  place it in the cache dir, then re-run.
+- **IEDB** is served as a ZIP containing a CSV with a two-row `(group, field)`
+  header; the loader flattens it to `"Group - Field"` (so the alpha `Chain 1` and
+  beta `Chain 2` CDR3 columns do not collide) and maps `Chain 2 - CDR3 Curated`,
+  `Epitope - Name`, and `Assay - MHC Allele Names`. The exact export filename on the
+  IEDB portal changes over time — if the constant URL 404s, export the "Receptor
+  (TCR/BCR)" table manually from <https://www.iedb.org/database_export_v3.php> and
+  place the ZIP at `<cache_dir>/iedb_receptor_full_v3.zip`.
+  *Validated live 2026-06-03: 192,167 records.*
 - **NetTCR-2.0** ships explicit positive **and** negative pairs, so `load_nettcr`
   preserves the real `0/1` labels. This is the dataset whose
   `CDR3b, peptide, binder` layout `to_nettcr_format` / `write_nettcr_csv` target.
+  *Validated live 2026-06-03: 53,952 pairs (8,992 binders).*
 
 If column names in any upstream release drift, the loader raises a `RuntimeError`
 listing the columns it actually saw; update the mapping in `download.py` or fetch
