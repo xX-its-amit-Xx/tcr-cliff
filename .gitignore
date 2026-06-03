@@ -37,6 +37,9 @@ artifacts/
 *.pt
 *.joblib
 !src/tcr_cliff/data/toy/**
+# ...but never track compiled artifacts, even under the toy data dir.
+src/tcr_cliff/data/toy/**/__pycache__/
+src/tcr_cliff/data/toy/**/*.pyc
 
 # Downloaded raw datasets (never commit upstream data; see DATASETS.md)
 data/raw/
