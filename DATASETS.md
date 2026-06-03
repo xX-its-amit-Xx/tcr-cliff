@@ -31,7 +31,7 @@ Override per call with `load_vdjdb(cache_dir=...)` (and the other loaders), or v
 | Dataset | Loader | Source URL (module constant) | Licence | Citation |
 | --- | --- | --- | --- | --- |
 | **VDJdb** | `load_vdjdb` | `VDJDB_URL` → <https://github.com/antigenomics/vdjdb-db> (`latest-version.txt`) | CC-BY 4.0 | Shugay M. *et al.* "VDJdb: a curated database of T-cell receptor sequences with known antigen specificity." *Nucleic Acids Research* 46(D1):D419–D427, 2018. <https://doi.org/10.1093/nar/gkx760> |
-| **McPAS-TCR** | `load_mcpas` | `MCPAS_URL` → <http://friedmanlab.weizmann.ac.il/McPAS-TCR/> | Free for academic use (see site terms) | Tickotsky N., Sagiv T., Prilusky J., Shifrut E., Friedman N. "McPAS-TCR: a manually curated catalogue of pathology-associated T cell receptor sequences." *Bioinformatics* 33(18):2924–2929, 2017. <https://doi.org/10.1093/bioinformatics/btx286> |
+| **McPAS-TCR** | `load_mcpas` | `MCPAS_URL` → <https://friedmanlab.weizmann.ac.il/McPAS-TCR/McPAS-TCR.csv> | Free for academic use (see site terms) | Tickotsky N., Sagiv T., Prilusky J., Shifrut E., Friedman N. "McPAS-TCR: a manually curated catalogue of pathology-associated T cell receptor sequences." *Bioinformatics* 33(18):2924–2929, 2017. <https://doi.org/10.1093/bioinformatics/btx286> |
 | **IEDB** (TCR receptor export) | `load_iedb` | `IEDB_URL` → <https://www.iedb.org/database_export_v3.php> | Free, CC0-style; attribution requested (see IEDB terms of use) | Vita R. *et al.* "The Immune Epitope Database (IEDB): 2018 update." *Nucleic Acids Research* 47(D1):D339–D343, 2019. <https://doi.org/10.1093/nar/gky1006> |
 | **NetTCR-2.0 / ImmRep** | `load_nettcr` | `NETTCR_URL` → <https://github.com/mnielLab/NetTCR-2.0> (`data/`) | Open (academic; see repository) | Montemurro A. *et al.* "NetTCR-2.0 enables accurate prediction of TCR-peptide binding by using paired TCRα and β sequence data." *Communications Biology* 4:1060, 2021. <https://doi.org/10.1038/s42003-021-02610-3> |
 
@@ -44,10 +44,11 @@ Override per call with `load_vdjdb(cache_dir=...)` (and the other loaders), or v
   ZIP URLs (newest first); the loader follows the first and reads `vdjdb.slim.txt`.
   *Validated live 2026-06-03: 95,707 β-chain records.*
 - **McPAS-TCR** is an association catalogue and is likewise loaded as `binder = 1`.
-  **The direct CSV link is now gated behind the website form (it returns an HTML
-  page).** `load_mcpas` detects this and raises a clear error; download
-  `McPAS-TCR.csv` manually from <https://friedmanlab.weizmann.ac.il/McPAS-TCR/> and
-  place it in the cache dir, then re-run.
+  The site migrated to an R/Shiny app, so the old `/Download/McPAS-TCR.csv` path 404s,
+  but the CSV is still served statically at the app root (the URL above); `load_mcpas`
+  downloads it directly (handling the UTF-8 BOM). If the app URL moves again the loader
+  detects the HTML response and points you at the manual-download fallback.
+  *Validated live 2026-06-03: 15,013 records (356 peptides).*
 - **IEDB** is served as a ZIP containing a CSV with a two-row `(group, field)`
   header; the loader flattens it to `"Group - Field"` (so the alpha `Chain 1` and
   beta `Chain 2` CDR3 columns do not collide) and maps `Chain 2 - CDR3 Curated`,

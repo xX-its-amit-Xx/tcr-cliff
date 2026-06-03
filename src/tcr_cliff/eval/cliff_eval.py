@@ -175,6 +175,7 @@ def cross_validated_cliff_eval(
     seed: int = 0,
     n_boot: int = 1000,
     with_nn_baseline: bool = True,
+    nn_max_train: int = 4000,
 ) -> dict:
     """Pool cliff comparisons across repeated grouped splits for a stable estimate.
 
@@ -234,7 +235,7 @@ def cross_validated_cliff_eval(
         pairs = find_neighbor_pairs(test_df, cfg)
         pooled_model.extend(evaluate_pairs(pairs, scores))
         if with_nn_baseline:
-            nn = nearest_neighbor_scores(train_df, test_df, seed=seed)
+            nn = nearest_neighbor_scores(train_df, test_df, max_train=nn_max_train, seed=seed)
             pooled_nn.extend(evaluate_pairs(pairs, nn))
         _log.info(
             "CV fold %d/%d: %d test rows, %d cliff pairs pooled",

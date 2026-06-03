@@ -1,9 +1,3 @@
-# Reference copy of the GitHub Actions CI workflow.
-#
-# This file could not be pushed to `.github/workflows/ci.yml` directly because the
-# token used to create the branch lacked the `workflow` OAuth scope. To enable CI,
-# copy this file to `.github/workflows/ci.yml` (e.g. via the GitHub web UI, or with a
-# token that has the `workflow` scope) on the default branch.
 name: CI
 
 on:

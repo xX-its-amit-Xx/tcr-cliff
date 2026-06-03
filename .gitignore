@@ -45,9 +45,6 @@ src/tcr_cliff/data/toy/**/*.pyc
 data/raw/
 data/external/
 
-# GitHub Actions workflow (push blocked without `workflow` token scope; a reference
-# copy lives at docs/github-actions-ci.yml — move it here to enable CI).
-.github/workflows/
 
 # Notebooks
 .ipynb_checkpoints/
