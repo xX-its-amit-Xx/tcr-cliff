@@ -1,0 +1,90 @@
+# tcr-cliff cliff-aware model: contrastive pretraining + supervised binding head.
+#
+# Requires torch. The contrastive objective pulls smooth (non-cliff) neighbour
+# pairs together and pushes binding-cliff pairs apart, so the sequence encoder is
+# sensitised to the single-residue flips that flip binding.
+#
+# Embeddings stay offline-friendly (fallback) by default. For real ESM-2 features
+# set embedding.backend: esm-hf and embedding.model_name: facebook/esm2_t12_35M_UR50D
+# (set embedding.device: cuda / train.device: cuda when a GPU is available).
+
+seed: 0
+output_dir: runs/cliff_aware
+
+data:
+  source: toy
+  path: null
+  test_size: 0.2
+  val_size: 0.1
+  split_column: null
+  group_split_on: peptide
+
+embedding:
+  backend: fallback        # switch to esm-hf for real ESM-2 embeddings (see header)
+  model_name: esm2_t12_35M_UR50D   # -> facebook/esm2_t12_35M_UR50D under esm-hf
+  pooling: mean
+  layers:
+    - -1
+  include_mhc: true
+  cache_dir: .tcr_cliff_cache/embeddings
+  device: cpu
+  batch_size: 8
+  max_len: 64
+  fallback_dim: 320
+  kmer_k: 3
+
+cliff:
+  max_edits: 1
+  distance: levenshtein
+  vary: both
+  require_label_flip: true
+  affinity_delta: null
+  same_context: true
+  min_len: 5
+
+structure:
+  enabled: false
+  source_dir: null
+  use_stub: true
+  pae_interface_cutoff: 8.0
+
+model:
+  kind: cliff_aware
+  baseline:
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+    max_depth: -1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_lambda: 1.0
+    prefer: lightgbm
+  cliff_aware:
+    proj_dim: 128
+    hidden_dim: 256
+    dropout: 0.1
+    contrastive_epochs: 20
+    contrastive_margin: 1.0
+    contrastive_temperature: 0.2
+    cliff_weight: 2.0
+    head_epochs: 30
+    lr: 0.001
+    weight_decay: 0.0001
+    batch_size: 64
+    freeze_encoder_after_pretrain: false
+  fusion:
+    structure_feature_dim: 12
+    hidden_dim: 128
+    dropout: 0.1
+
+train:
+  seed: 0
+  device: cpu
+  early_stopping_patience: 10
+  log_every: 5
+
+eval:
+  task: classification
+  threshold: 0.5
+  bootstrap: 0
+  report_cliff_subset: true

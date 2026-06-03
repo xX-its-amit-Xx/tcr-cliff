@@ -1,0 +1,3982 @@
+{
+  "toy0000": {
+    "ptm": 0.5198,
+    "iptm": 0.2809,
+    "plddt_mean": 74.046,
+    "plddt_min": 60.12,
+    "pae_interface_mean": 12.319,
+    "pae_interface_min": 9.64,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.459
+  },
+  "toy0001": {
+    "ptm": 0.7802,
+    "iptm": 0.739,
+    "plddt_mean": 81.222,
+    "plddt_min": 65.21,
+    "pae_interface_mean": 5.356,
+    "pae_interface_min": 2.5,
+    "n_interface_contacts": 142,
+    "plddt_interface_mean": 84.313
+  },
+  "toy0002": {
+    "ptm": 0.5705,
+    "iptm": 0.5292,
+    "plddt_mean": 74.734,
+    "plddt_min": 63.65,
+    "pae_interface_mean": 12.406,
+    "pae_interface_min": 9.5,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.487
+  },
+  "toy0003": {
+    "ptm": 0.8426,
+    "iptm": 0.5952,
+    "plddt_mean": 82.06,
+    "plddt_min": 69.05,
+    "pae_interface_mean": 7.675,
+    "pae_interface_min": 5.35,
+    "n_interface_contacts": 70,
+    "plddt_interface_mean": 83.756
+  },
+  "toy0004": {
+    "ptm": 0.8566,
+    "iptm": 0.7423,
+    "plddt_mean": 82.21,
+    "plddt_min": 68.47,
+    "pae_interface_mean": 5.889,
+    "pae_interface_min": 3.55,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 79.681
+  },
+  "toy0005": {
+    "ptm": 0.8174,
+    "iptm": 0.7144,
+    "plddt_mean": 82.911,
+    "plddt_min": 69.49,
+    "pae_interface_mean": 7.2,
+    "pae_interface_min": 4.9,
+    "n_interface_contacts": 102,
+    "plddt_interface_mean": 80.812
+  },
+  "toy0006": {
+    "ptm": 0.5895,
+    "iptm": 0.4474,
+    "plddt_mean": 73.517,
+    "plddt_min": 65.64,
+    "pae_interface_mean": 16.437,
+    "pae_interface_min": 14.36,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.05
+  },
+  "toy0007": {
+    "ptm": 0.7981,
+    "iptm": 0.6927,
+    "plddt_mean": 81.34,
+    "plddt_min": 68.4,
+    "pae_interface_mean": 8.422,
+    "pae_interface_min": 6.29,
+    "n_interface_contacts": 45,
+    "plddt_interface_mean": 81.606
+  },
+  "toy0008": {
+    "ptm": 0.6371,
+    "iptm": 0.345,
+    "plddt_mean": 71.507,
+    "plddt_min": 63.97,
+    "pae_interface_mean": 10.513,
+    "pae_interface_min": 7.65,
+    "n_interface_contacts": 2,
+    "plddt_interface_mean": 71.099
+  },
+  "toy0009": {
+    "ptm": 0.7508,
+    "iptm": 0.6852,
+    "plddt_mean": 83.212,
+    "plddt_min": 69.04,
+    "pae_interface_mean": 4.588,
+    "pae_interface_min": 1.21,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.9
+  },
+  "toy0010": {
+    "ptm": 0.5909,
+    "iptm": 0.3863,
+    "plddt_mean": 72.495,
+    "plddt_min": 61.32,
+    "pae_interface_mean": 13.789,
+    "pae_interface_min": 11.68,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.788
+  },
+  "toy0011": {
+    "ptm": 0.6256,
+    "iptm": 0.4313,
+    "plddt_mean": 73.632,
+    "plddt_min": 58.76,
+    "pae_interface_mean": 13.553,
+    "pae_interface_min": 11.38,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.008
+  },
+  "toy0012": {
+    "ptm": 0.9014,
+    "iptm": 0.7466,
+    "plddt_mean": 81.284,
+    "plddt_min": 65.21,
+    "pae_interface_mean": 6.806,
+    "pae_interface_min": 4.72,
+    "n_interface_contacts": 104,
+    "plddt_interface_mean": 80.353
+  },
+  "toy0013": {
+    "ptm": 0.4826,
+    "iptm": 0.5136,
+    "plddt_mean": 74.79,
+    "plddt_min": 63.94,
+    "pae_interface_mean": 11.898,
+    "pae_interface_min": 9.24,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.677
+  },
+  "toy0014": {
+    "ptm": 0.5381,
+    "iptm": 0.3024,
+    "plddt_mean": 75.481,
+    "plddt_min": 64.04,
+    "pae_interface_mean": 14.706,
+    "pae_interface_min": 12.19,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 78.206
+  },
+  "toy0015": {
+    "ptm": 0.7105,
+    "iptm": 0.6915,
+    "plddt_mean": 80.551,
+    "plddt_min": 69.73,
+    "pae_interface_mean": 7.17,
+    "pae_interface_min": 2.83,
+    "n_interface_contacts": 115,
+    "plddt_interface_mean": 80.62
+  },
+  "toy0016": {
+    "ptm": 0.7172,
+    "iptm": 0.297,
+    "plddt_mean": 75.79,
+    "plddt_min": 66.71,
+    "pae_interface_mean": 12.336,
+    "pae_interface_min": 10.0,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.869
+  },
+  "toy0017": {
+    "ptm": 0.5777,
+    "iptm": 0.5811,
+    "plddt_mean": 73.947,
+    "plddt_min": 64.03,
+    "pae_interface_mean": 13.564,
+    "pae_interface_min": 10.45,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.419
+  },
+  "toy0018": {
+    "ptm": 0.7468,
+    "iptm": 0.6317,
+    "plddt_mean": 83.074,
+    "plddt_min": 69.64,
+    "pae_interface_mean": 4.371,
+    "pae_interface_min": 1.91,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 85.85
+  },
+  "toy0019": {
+    "ptm": 0.6063,
+    "iptm": 0.3525,
+    "plddt_mean": 74.294,
+    "plddt_min": 63.01,
+    "pae_interface_mean": 13.236,
+    "pae_interface_min": 10.7,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.228
+  },
+  "toy0020": {
+    "ptm": 0.6029,
+    "iptm": 0.3834,
+    "plddt_mean": 72.83,
+    "plddt_min": 63.22,
+    "pae_interface_mean": 15.172,
+    "pae_interface_min": 12.26,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.004
+  },
+  "toy0021": {
+    "ptm": 0.7655,
+    "iptm": 0.7532,
+    "plddt_mean": 81.393,
+    "plddt_min": 69.7,
+    "pae_interface_mean": 5.26,
+    "pae_interface_min": 1.77,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 83.996
+  },
+  "toy0022": {
+    "ptm": 0.6215,
+    "iptm": 0.506,
+    "plddt_mean": 73.296,
+    "plddt_min": 57.23,
+    "pae_interface_mean": 12.147,
+    "pae_interface_min": 9.75,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.971
+  },
+  "toy0023": {
+    "ptm": 0.6288,
+    "iptm": 0.7647,
+    "plddt_mean": 84.083,
+    "plddt_min": 73.42,
+    "pae_interface_mean": 3.766,
+    "pae_interface_min": 1.61,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 82.979
+  },
+  "toy0024": {
+    "ptm": 0.8404,
+    "iptm": 0.7946,
+    "plddt_mean": 81.526,
+    "plddt_min": 63.74,
+    "pae_interface_mean": 6.524,
+    "pae_interface_min": 4.34,
+    "n_interface_contacts": 102,
+    "plddt_interface_mean": 83.023
+  },
+  "toy0025": {
+    "ptm": 0.6924,
+    "iptm": 0.7026,
+    "plddt_mean": 83.101,
+    "plddt_min": 69.95,
+    "pae_interface_mean": 4.758,
+    "pae_interface_min": 2.28,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 84.713
+  },
+  "toy0026": {
+    "ptm": 0.5346,
+    "iptm": 0.4266,
+    "plddt_mean": 73.974,
+    "plddt_min": 61.06,
+    "pae_interface_mean": 12.78,
+    "pae_interface_min": 10.58,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.819
+  },
+  "toy0027": {
+    "ptm": 0.8568,
+    "iptm": 0.66,
+    "plddt_mean": 79.623,
+    "plddt_min": 71.36,
+    "pae_interface_mean": 7.608,
+    "pae_interface_min": 4.98,
+    "n_interface_contacts": 94,
+    "plddt_interface_mean": 81.206
+  },
+  "toy0028": {
+    "ptm": 0.619,
+    "iptm": 0.4247,
+    "plddt_mean": 75.86,
+    "plddt_min": 64.57,
+    "pae_interface_mean": 12.769,
+    "pae_interface_min": 9.87,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.956
+  },
+  "toy0029": {
+    "ptm": 0.8634,
+    "iptm": 0.7069,
+    "plddt_mean": 81.323,
+    "plddt_min": 69.73,
+    "pae_interface_mean": 7.828,
+    "pae_interface_min": 5.29,
+    "n_interface_contacts": 67,
+    "plddt_interface_mean": 82.299
+  },
+  "toy0030": {
+    "ptm": 0.545,
+    "iptm": 0.3985,
+    "plddt_mean": 74.527,
+    "plddt_min": 62.5,
+    "pae_interface_mean": 13.308,
+    "pae_interface_min": 10.78,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.393
+  },
+  "toy0031": {
+    "ptm": 0.7576,
+    "iptm": 0.642,
+    "plddt_mean": 83.637,
+    "plddt_min": 73.01,
+    "pae_interface_mean": 6.808,
+    "pae_interface_min": 4.53,
+    "n_interface_contacts": 111,
+    "plddt_interface_mean": 82.97
+  },
+  "toy0032": {
+    "ptm": 0.7358,
+    "iptm": 0.7747,
+    "plddt_mean": 84.444,
+    "plddt_min": 74.33,
+    "pae_interface_mean": 5.568,
+    "pae_interface_min": 2.46,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 81.727
+  },
+  "toy0033": {
+    "ptm": 0.8302,
+    "iptm": 0.6394,
+    "plddt_mean": 83.064,
+    "plddt_min": 73.51,
+    "pae_interface_mean": 6.36,
+    "pae_interface_min": 4.04,
+    "n_interface_contacts": 141,
+    "plddt_interface_mean": 82.719
+  },
+  "toy0034": {
+    "ptm": 0.7794,
+    "iptm": 0.8413,
+    "plddt_mean": 81.305,
+    "plddt_min": 67.95,
+    "pae_interface_mean": 4.577,
+    "pae_interface_min": 1.91,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 82.084
+  },
+  "toy0035": {
+    "ptm": 0.9136,
+    "iptm": 0.7587,
+    "plddt_mean": 81.008,
+    "plddt_min": 71.53,
+    "pae_interface_mean": 11.387,
+    "pae_interface_min": 7.67,
+    "n_interface_contacts": 1,
+    "plddt_interface_mean": 81.027
+  },
+  "toy0036": {
+    "ptm": 0.7292,
+    "iptm": 0.8339,
+    "plddt_mean": 79.829,
+    "plddt_min": 68.6,
+    "pae_interface_mean": 4.791,
+    "pae_interface_min": 1.13,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 75.722
+  },
+  "toy0037": {
+    "ptm": 0.5309,
+    "iptm": 0.2926,
+    "plddt_mean": 74.655,
+    "plddt_min": 66.05,
+    "pae_interface_mean": 14.528,
+    "pae_interface_min": 11.3,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.396
+  },
+  "toy0038": {
+    "ptm": 0.7537,
+    "iptm": 0.6512,
+    "plddt_mean": 80.882,
+    "plddt_min": 68.54,
+    "pae_interface_mean": 7.546,
+    "pae_interface_min": 5.41,
+    "n_interface_contacts": 85,
+    "plddt_interface_mean": 83.04
+  },
+  "toy0039": {
+    "ptm": 0.5763,
+    "iptm": 0.4697,
+    "plddt_mean": 73.181,
+    "plddt_min": 62.22,
+    "pae_interface_mean": 12.797,
+    "pae_interface_min": 11.01,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.371
+  },
+  "toy0040": {
+    "ptm": 0.5635,
+    "iptm": 0.4481,
+    "plddt_mean": 70.602,
+    "plddt_min": 58.57,
+    "pae_interface_mean": 16.485,
+    "pae_interface_min": 14.0,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.987
+  },
+  "toy0041": {
+    "ptm": 0.6407,
+    "iptm": 0.7572,
+    "plddt_mean": 82.733,
+    "plddt_min": 72.57,
+    "pae_interface_mean": 8.366,
+    "pae_interface_min": 6.03,
+    "n_interface_contacts": 52,
+    "plddt_interface_mean": 82.548
+  },
+  "toy0042": {
+    "ptm": 0.634,
+    "iptm": 0.3009,
+    "plddt_mean": 73.679,
+    "plddt_min": 62.12,
+    "pae_interface_mean": 9.98,
+    "pae_interface_min": 6.6,
+    "n_interface_contacts": 3,
+    "plddt_interface_mean": 73.651
+  },
+  "toy0043": {
+    "ptm": 0.675,
+    "iptm": 0.4672,
+    "plddt_mean": 75.527,
+    "plddt_min": 68.45,
+    "pae_interface_mean": 12.648,
+    "pae_interface_min": 9.87,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.681
+  },
+  "toy0044": {
+    "ptm": 0.7702,
+    "iptm": 0.6813,
+    "plddt_mean": 83.223,
+    "plddt_min": 70.62,
+    "pae_interface_mean": 6.189,
+    "pae_interface_min": 3.68,
+    "n_interface_contacts": 104,
+    "plddt_interface_mean": 79.577
+  },
+  "toy0045": {
+    "ptm": 0.5025,
+    "iptm": 0.5073,
+    "plddt_mean": 74.769,
+    "plddt_min": 66.16,
+    "pae_interface_mean": 14.444,
+    "pae_interface_min": 12.07,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.012
+  },
+  "toy0046": {
+    "ptm": 0.5068,
+    "iptm": 0.531,
+    "plddt_mean": 73.294,
+    "plddt_min": 65.23,
+    "pae_interface_mean": 16.948,
+    "pae_interface_min": 13.77,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.039
+  },
+  "toy0047": {
+    "ptm": 0.8204,
+    "iptm": 0.6724,
+    "plddt_mean": 82.758,
+    "plddt_min": 76.98,
+    "pae_interface_mean": 5.931,
+    "pae_interface_min": 3.45,
+    "n_interface_contacts": 143,
+    "plddt_interface_mean": 79.909
+  },
+  "toy0048": {
+    "ptm": 0.717,
+    "iptm": 0.4183,
+    "plddt_mean": 74.244,
+    "plddt_min": 58.89,
+    "pae_interface_mean": 12.105,
+    "pae_interface_min": 10.04,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.224
+  },
+  "toy0049": {
+    "ptm": 0.6331,
+    "iptm": 0.3305,
+    "plddt_mean": 73.013,
+    "plddt_min": 57.83,
+    "pae_interface_mean": 13.778,
+    "pae_interface_min": 10.97,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.486
+  },
+  "toy0050": {
+    "ptm": 0.7852,
+    "iptm": 0.7596,
+    "plddt_mean": 81.502,
+    "plddt_min": 69.49,
+    "pae_interface_mean": 6.298,
+    "pae_interface_min": 4.12,
+    "n_interface_contacts": 130,
+    "plddt_interface_mean": 81.467
+  },
+  "toy0051": {
+    "ptm": 0.6232,
+    "iptm": 0.4769,
+    "plddt_mean": 73.653,
+    "plddt_min": 65.25,
+    "pae_interface_mean": 12.009,
+    "pae_interface_min": 8.9,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.843
+  },
+  "toy0052": {
+    "ptm": 0.6824,
+    "iptm": 0.8076,
+    "plddt_mean": 81.824,
+    "plddt_min": 71.77,
+    "pae_interface_mean": 5.05,
+    "pae_interface_min": 2.64,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 80.249
+  },
+  "toy0053": {
+    "ptm": 0.5568,
+    "iptm": 0.3624,
+    "plddt_mean": 74.37,
+    "plddt_min": 62.36,
+    "pae_interface_mean": 12.666,
+    "pae_interface_min": 9.72,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.172
+  },
+  "toy0054": {
+    "ptm": 0.7156,
+    "iptm": 0.6732,
+    "plddt_mean": 80.531,
+    "plddt_min": 72.25,
+    "pae_interface_mean": 5.568,
+    "pae_interface_min": 2.19,
+    "n_interface_contacts": 115,
+    "plddt_interface_mean": 82.001
+  },
+  "toy0055": {
+    "ptm": 0.7995,
+    "iptm": 0.7238,
+    "plddt_mean": 80.788,
+    "plddt_min": 66.73,
+    "pae_interface_mean": 4.771,
+    "pae_interface_min": 2.3,
+    "n_interface_contacts": 125,
+    "plddt_interface_mean": 83.962
+  },
+  "toy0056": {
+    "ptm": 0.7739,
+    "iptm": 0.6955,
+    "plddt_mean": 80.099,
+    "plddt_min": 66.08,
+    "pae_interface_mean": 5.585,
+    "pae_interface_min": 2.48,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 81.811
+  },
+  "toy0057": {
+    "ptm": 0.5536,
+    "iptm": 0.4141,
+    "plddt_mean": 74.831,
+    "plddt_min": 52.86,
+    "pae_interface_mean": 16.135,
+    "pae_interface_min": 13.8,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.338
+  },
+  "toy0058": {
+    "ptm": 0.7658,
+    "iptm": 0.8391,
+    "plddt_mean": 84.867,
+    "plddt_min": 73.41,
+    "pae_interface_mean": 6.412,
+    "pae_interface_min": 3.96,
+    "n_interface_contacts": 122,
+    "plddt_interface_mean": 83.184
+  },
+  "toy0059": {
+    "ptm": 0.684,
+    "iptm": 0.2437,
+    "plddt_mean": 71.479,
+    "plddt_min": 63.19,
+    "pae_interface_mean": 13.764,
+    "pae_interface_min": 11.81,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.708
+  },
+  "toy0060": {
+    "ptm": 0.7943,
+    "iptm": 0.7769,
+    "plddt_mean": 82.786,
+    "plddt_min": 70.7,
+    "pae_interface_mean": 8.08,
+    "pae_interface_min": 5.08,
+    "n_interface_contacts": 67,
+    "plddt_interface_mean": 81.914
+  },
+  "toy0061": {
+    "ptm": 0.839,
+    "iptm": 0.7286,
+    "plddt_mean": 83.481,
+    "plddt_min": 74.1,
+    "pae_interface_mean": 4.641,
+    "pae_interface_min": 1.45,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.95
+  },
+  "toy0062": {
+    "ptm": 0.7625,
+    "iptm": 0.8153,
+    "plddt_mean": 83.816,
+    "plddt_min": 62.97,
+    "pae_interface_mean": 5.775,
+    "pae_interface_min": 3.24,
+    "n_interface_contacts": 106,
+    "plddt_interface_mean": 85.192
+  },
+  "toy0063": {
+    "ptm": 0.7926,
+    "iptm": 0.5652,
+    "plddt_mean": 81.987,
+    "plddt_min": 67.53,
+    "pae_interface_mean": 5.569,
+    "pae_interface_min": 2.99,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 81.803
+  },
+  "toy0064": {
+    "ptm": 0.7854,
+    "iptm": 0.7332,
+    "plddt_mean": 79.493,
+    "plddt_min": 62.62,
+    "pae_interface_mean": 5.254,
+    "pae_interface_min": 2.43,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 78.144
+  },
+  "toy0065": {
+    "ptm": 0.7897,
+    "iptm": 0.6617,
+    "plddt_mean": 82.914,
+    "plddt_min": 70.44,
+    "pae_interface_mean": 5.258,
+    "pae_interface_min": 2.99,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 85.204
+  },
+  "toy0066": {
+    "ptm": 0.6232,
+    "iptm": 0.48,
+    "plddt_mean": 71.808,
+    "plddt_min": 60.42,
+    "pae_interface_mean": 14.693,
+    "pae_interface_min": 11.19,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.99
+  },
+  "toy0067": {
+    "ptm": 0.7378,
+    "iptm": 0.7031,
+    "plddt_mean": 80.551,
+    "plddt_min": 67.71,
+    "pae_interface_mean": 2.203,
+    "pae_interface_min": 0.5,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 77.14
+  },
+  "toy0068": {
+    "ptm": 0.6227,
+    "iptm": 0.3851,
+    "plddt_mean": 75.19,
+    "plddt_min": 62.37,
+    "pae_interface_mean": 12.356,
+    "pae_interface_min": 9.76,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.632
+  },
+  "toy0069": {
+    "ptm": 0.4927,
+    "iptm": 0.499,
+    "plddt_mean": 74.867,
+    "plddt_min": 63.76,
+    "pae_interface_mean": 15.295,
+    "pae_interface_min": 12.89,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.277
+  },
+  "toy0070": {
+    "ptm": 0.6495,
+    "iptm": 0.7242,
+    "plddt_mean": 82.597,
+    "plddt_min": 73.87,
+    "pae_interface_mean": 5.089,
+    "pae_interface_min": 2.09,
+    "n_interface_contacts": 143,
+    "plddt_interface_mean": 84.761
+  },
+  "toy0071": {
+    "ptm": 0.6159,
+    "iptm": 0.3743,
+    "plddt_mean": 75.356,
+    "plddt_min": 65.17,
+    "pae_interface_mean": 14.396,
+    "pae_interface_min": 12.46,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.311
+  },
+  "toy0072": {
+    "ptm": 0.7525,
+    "iptm": 0.8447,
+    "plddt_mean": 84.54,
+    "plddt_min": 74.14,
+    "pae_interface_mean": 8.059,
+    "pae_interface_min": 5.76,
+    "n_interface_contacts": 56,
+    "plddt_interface_mean": 82.012
+  },
+  "toy0073": {
+    "ptm": 0.6124,
+    "iptm": 0.6146,
+    "plddt_mean": 81.099,
+    "plddt_min": 72.93,
+    "pae_interface_mean": 4.224,
+    "pae_interface_min": 1.45,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 81.458
+  },
+  "toy0074": {
+    "ptm": 0.6583,
+    "iptm": 0.4019,
+    "plddt_mean": 74.235,
+    "plddt_min": 59.56,
+    "pae_interface_mean": 11.602,
+    "pae_interface_min": 8.75,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 77.431
+  },
+  "toy0075": {
+    "ptm": 0.8515,
+    "iptm": 0.6441,
+    "plddt_mean": 82.488,
+    "plddt_min": 73.96,
+    "pae_interface_mean": 6.279,
+    "pae_interface_min": 3.09,
+    "n_interface_contacts": 137,
+    "plddt_interface_mean": 83.328
+  },
+  "toy0076": {
+    "ptm": 0.6543,
+    "iptm": 0.53,
+    "plddt_mean": 74.216,
+    "plddt_min": 65.8,
+    "pae_interface_mean": 12.21,
+    "pae_interface_min": 9.4,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.214
+  },
+  "toy0077": {
+    "ptm": 0.6416,
+    "iptm": 0.7367,
+    "plddt_mean": 83.379,
+    "plddt_min": 73.91,
+    "pae_interface_mean": 3.629,
+    "pae_interface_min": 0.93,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 81.459
+  },
+  "toy0078": {
+    "ptm": 0.8073,
+    "iptm": 0.8791,
+    "plddt_mean": 80.609,
+    "plddt_min": 64.79,
+    "pae_interface_mean": 7.864,
+    "pae_interface_min": 4.64,
+    "n_interface_contacts": 67,
+    "plddt_interface_mean": 81.546
+  },
+  "toy0079": {
+    "ptm": 0.6627,
+    "iptm": 0.863,
+    "plddt_mean": 82.23,
+    "plddt_min": 71.7,
+    "pae_interface_mean": 5.726,
+    "pae_interface_min": 2.04,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 82.337
+  },
+  "toy0080": {
+    "ptm": 0.6033,
+    "iptm": 0.5891,
+    "plddt_mean": 74.498,
+    "plddt_min": 68.33,
+    "pae_interface_mean": 15.292,
+    "pae_interface_min": 12.72,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.559
+  },
+  "toy0081": {
+    "ptm": 0.7088,
+    "iptm": 0.6813,
+    "plddt_mean": 80.745,
+    "plddt_min": 63.95,
+    "pae_interface_mean": 5.144,
+    "pae_interface_min": 2.55,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 78.266
+  },
+  "toy0082": {
+    "ptm": 0.6695,
+    "iptm": 0.4853,
+    "plddt_mean": 71.028,
+    "plddt_min": 56.43,
+    "pae_interface_mean": 11.571,
+    "pae_interface_min": 9.27,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.162
+  },
+  "toy0083": {
+    "ptm": 0.7348,
+    "iptm": 0.6871,
+    "plddt_mean": 84.296,
+    "plddt_min": 70.76,
+    "pae_interface_mean": 5.092,
+    "pae_interface_min": 1.92,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 84.116
+  },
+  "toy0084": {
+    "ptm": 0.7642,
+    "iptm": 0.4104,
+    "plddt_mean": 72.401,
+    "plddt_min": 59.67,
+    "pae_interface_mean": 11.102,
+    "pae_interface_min": 8.98,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.212
+  },
+  "toy0085": {
+    "ptm": 0.7232,
+    "iptm": 0.7414,
+    "plddt_mean": 83.939,
+    "plddt_min": 71.76,
+    "pae_interface_mean": 8.574,
+    "pae_interface_min": 6.43,
+    "n_interface_contacts": 37,
+    "plddt_interface_mean": 84.672
+  },
+  "toy0086": {
+    "ptm": 0.6879,
+    "iptm": 0.6181,
+    "plddt_mean": 81.461,
+    "plddt_min": 67.82,
+    "pae_interface_mean": 6.366,
+    "pae_interface_min": 4.55,
+    "n_interface_contacts": 132,
+    "plddt_interface_mean": 81.616
+  },
+  "toy0087": {
+    "ptm": 0.7842,
+    "iptm": 0.587,
+    "plddt_mean": 81.39,
+    "plddt_min": 71.57,
+    "pae_interface_mean": 6.998,
+    "pae_interface_min": 4.4,
+    "n_interface_contacts": 103,
+    "plddt_interface_mean": 82.282
+  },
+  "toy0088": {
+    "ptm": 0.7578,
+    "iptm": 0.7711,
+    "plddt_mean": 82.07,
+    "plddt_min": 71.94,
+    "pae_interface_mean": 6.853,
+    "pae_interface_min": 4.13,
+    "n_interface_contacts": 99,
+    "plddt_interface_mean": 81.251
+  },
+  "toy0089": {
+    "ptm": 0.7109,
+    "iptm": 0.4625,
+    "plddt_mean": 73.27,
+    "plddt_min": 59.44,
+    "pae_interface_mean": 12.797,
+    "pae_interface_min": 10.26,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.341
+  },
+  "toy0090": {
+    "ptm": 0.7419,
+    "iptm": 0.7224,
+    "plddt_mean": 82.304,
+    "plddt_min": 70.92,
+    "pae_interface_mean": 8.0,
+    "pae_interface_min": 5.76,
+    "n_interface_contacts": 62,
+    "plddt_interface_mean": 79.936
+  },
+  "toy0091": {
+    "ptm": 0.6003,
+    "iptm": 0.3967,
+    "plddt_mean": 74.827,
+    "plddt_min": 64.18,
+    "pae_interface_mean": 13.607,
+    "pae_interface_min": 10.84,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.43
+  },
+  "toy0092": {
+    "ptm": 0.5639,
+    "iptm": 0.3721,
+    "plddt_mean": 74.046,
+    "plddt_min": 63.87,
+    "pae_interface_mean": 12.94,
+    "pae_interface_min": 10.78,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.468
+  },
+  "toy0093": {
+    "ptm": 0.8549,
+    "iptm": 0.6907,
+    "plddt_mean": 82.445,
+    "plddt_min": 72.31,
+    "pae_interface_mean": 7.527,
+    "pae_interface_min": 4.91,
+    "n_interface_contacts": 78,
+    "plddt_interface_mean": 81.103
+  },
+  "toy0094": {
+    "ptm": 0.5392,
+    "iptm": 0.4649,
+    "plddt_mean": 74.29,
+    "plddt_min": 63.21,
+    "pae_interface_mean": 10.421,
+    "pae_interface_min": 7.63,
+    "n_interface_contacts": 1,
+    "plddt_interface_mean": 73.174
+  },
+  "toy0095": {
+    "ptm": 0.8216,
+    "iptm": 0.7268,
+    "plddt_mean": 81.185,
+    "plddt_min": 71.9,
+    "pae_interface_mean": 5.281,
+    "pae_interface_min": 2.65,
+    "n_interface_contacts": 125,
+    "plddt_interface_mean": 79.077
+  },
+  "toy0096": {
+    "ptm": 0.6187,
+    "iptm": 0.3462,
+    "plddt_mean": 74.897,
+    "plddt_min": 61.42,
+    "pae_interface_mean": 12.78,
+    "pae_interface_min": 9.73,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.958
+  },
+  "toy0097": {
+    "ptm": 0.7721,
+    "iptm": 0.6923,
+    "plddt_mean": 83.359,
+    "plddt_min": 71.06,
+    "pae_interface_mean": 6.116,
+    "pae_interface_min": 3.81,
+    "n_interface_contacts": 121,
+    "plddt_interface_mean": 84.82
+  },
+  "toy0098": {
+    "ptm": 0.5977,
+    "iptm": 0.3958,
+    "plddt_mean": 74.429,
+    "plddt_min": 65.09,
+    "pae_interface_mean": 13.135,
+    "pae_interface_min": 10.43,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.609
+  },
+  "toy0099": {
+    "ptm": 0.7958,
+    "iptm": 0.6619,
+    "plddt_mean": 82.247,
+    "plddt_min": 72.95,
+    "pae_interface_mean": 8.372,
+    "pae_interface_min": 5.15,
+    "n_interface_contacts": 44,
+    "plddt_interface_mean": 83.978
+  },
+  "toy0100": {
+    "ptm": 0.5483,
+    "iptm": 0.6263,
+    "plddt_mean": 72.336,
+    "plddt_min": 64.16,
+    "pae_interface_mean": 12.348,
+    "pae_interface_min": 9.44,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.914
+  },
+  "toy0101": {
+    "ptm": 0.5522,
+    "iptm": 0.5119,
+    "plddt_mean": 73.954,
+    "plddt_min": 61.5,
+    "pae_interface_mean": 11.108,
+    "pae_interface_min": 7.93,
+    "n_interface_contacts": 1,
+    "plddt_interface_mean": 75.002
+  },
+  "toy0102": {
+    "ptm": 0.7069,
+    "iptm": 0.6547,
+    "plddt_mean": 83.755,
+    "plddt_min": 75.27,
+    "pae_interface_mean": 5.695,
+    "pae_interface_min": 3.31,
+    "n_interface_contacts": 105,
+    "plddt_interface_mean": 84.206
+  },
+  "toy0103": {
+    "ptm": 0.5901,
+    "iptm": 0.512,
+    "plddt_mean": 76.437,
+    "plddt_min": 68.34,
+    "pae_interface_mean": 13.068,
+    "pae_interface_min": 10.96,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.426
+  },
+  "toy0104": {
+    "ptm": 0.4998,
+    "iptm": 0.6512,
+    "plddt_mean": 73.822,
+    "plddt_min": 68.34,
+    "pae_interface_mean": 14.091,
+    "pae_interface_min": 11.11,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.191
+  },
+  "toy0105": {
+    "ptm": 0.7432,
+    "iptm": 0.7165,
+    "plddt_mean": 82.363,
+    "plddt_min": 72.36,
+    "pae_interface_mean": 6.245,
+    "pae_interface_min": 3.64,
+    "n_interface_contacts": 120,
+    "plddt_interface_mean": 79.454
+  },
+  "toy0106": {
+    "ptm": 0.6065,
+    "iptm": 0.5623,
+    "plddt_mean": 73.923,
+    "plddt_min": 62.0,
+    "pae_interface_mean": 14.018,
+    "pae_interface_min": 12.01,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.346
+  },
+  "toy0107": {
+    "ptm": 0.849,
+    "iptm": 0.7878,
+    "plddt_mean": 82.513,
+    "plddt_min": 67.64,
+    "pae_interface_mean": 7.563,
+    "pae_interface_min": 5.24,
+    "n_interface_contacts": 90,
+    "plddt_interface_mean": 81.178
+  },
+  "toy0108": {
+    "ptm": 0.8452,
+    "iptm": 0.7526,
+    "plddt_mean": 83.339,
+    "plddt_min": 73.57,
+    "pae_interface_mean": 6.667,
+    "pae_interface_min": 3.84,
+    "n_interface_contacts": 113,
+    "plddt_interface_mean": 85.904
+  },
+  "toy0109": {
+    "ptm": 0.8379,
+    "iptm": 0.7778,
+    "plddt_mean": 81.319,
+    "plddt_min": 64.27,
+    "pae_interface_mean": 3.806,
+    "pae_interface_min": 0.84,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 85.032
+  },
+  "toy0110": {
+    "ptm": 0.8219,
+    "iptm": 0.7621,
+    "plddt_mean": 85.282,
+    "plddt_min": 71.83,
+    "pae_interface_mean": 4.59,
+    "pae_interface_min": 2.04,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 86.64
+  },
+  "toy0111": {
+    "ptm": 0.504,
+    "iptm": 0.2852,
+    "plddt_mean": 73.593,
+    "plddt_min": 61.81,
+    "pae_interface_mean": 12.265,
+    "pae_interface_min": 9.52,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.902
+  },
+  "toy0112": {
+    "ptm": 0.8939,
+    "iptm": 0.5911,
+    "plddt_mean": 82.966,
+    "plddt_min": 70.39,
+    "pae_interface_mean": 4.514,
+    "pae_interface_min": 2.09,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 84.249
+  },
+  "toy0113": {
+    "ptm": 0.6133,
+    "iptm": 0.468,
+    "plddt_mean": 73.829,
+    "plddt_min": 58.83,
+    "pae_interface_mean": 14.406,
+    "pae_interface_min": 11.96,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.961
+  },
+  "toy0114": {
+    "ptm": 0.875,
+    "iptm": 0.6886,
+    "plddt_mean": 81.339,
+    "plddt_min": 66.87,
+    "pae_interface_mean": 6.054,
+    "pae_interface_min": 3.43,
+    "n_interface_contacts": 132,
+    "plddt_interface_mean": 84.97
+  },
+  "toy0115": {
+    "ptm": 0.7171,
+    "iptm": 0.7134,
+    "plddt_mean": 81.562,
+    "plddt_min": 71.45,
+    "pae_interface_mean": 5.818,
+    "pae_interface_min": 3.38,
+    "n_interface_contacts": 133,
+    "plddt_interface_mean": 83.929
+  },
+  "toy0116": {
+    "ptm": 0.8327,
+    "iptm": 0.757,
+    "plddt_mean": 79.668,
+    "plddt_min": 65.35,
+    "pae_interface_mean": 3.74,
+    "pae_interface_min": 0.53,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 81.888
+  },
+  "toy0117": {
+    "ptm": 0.782,
+    "iptm": 0.95,
+    "plddt_mean": 82.308,
+    "plddt_min": 70.25,
+    "pae_interface_mean": 4.326,
+    "pae_interface_min": 2.05,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 83.958
+  },
+  "toy0118": {
+    "ptm": 0.6944,
+    "iptm": 0.3764,
+    "plddt_mean": 72.673,
+    "plddt_min": 64.43,
+    "pae_interface_mean": 14.104,
+    "pae_interface_min": 11.41,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.971
+  },
+  "toy0119": {
+    "ptm": 0.7571,
+    "iptm": 0.6236,
+    "plddt_mean": 80.773,
+    "plddt_min": 69.69,
+    "pae_interface_mean": 3.737,
+    "pae_interface_min": 1.2,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 82.562
+  },
+  "toy0120": {
+    "ptm": 0.607,
+    "iptm": 0.43,
+    "plddt_mean": 73.896,
+    "plddt_min": 60.29,
+    "pae_interface_mean": 14.018,
+    "pae_interface_min": 11.58,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.248
+  },
+  "toy0121": {
+    "ptm": 0.7786,
+    "iptm": 0.846,
+    "plddt_mean": 83.667,
+    "plddt_min": 62.24,
+    "pae_interface_mean": 4.953,
+    "pae_interface_min": 1.71,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 82.072
+  },
+  "toy0122": {
+    "ptm": 0.6449,
+    "iptm": 0.445,
+    "plddt_mean": 75.731,
+    "plddt_min": 65.0,
+    "pae_interface_mean": 13.497,
+    "pae_interface_min": 11.0,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.514
+  },
+  "toy0123": {
+    "ptm": 0.836,
+    "iptm": 0.7963,
+    "plddt_mean": 80.612,
+    "plddt_min": 61.76,
+    "pae_interface_mean": 11.085,
+    "pae_interface_min": 8.29,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.539
+  },
+  "toy0124": {
+    "ptm": 0.5834,
+    "iptm": 0.4402,
+    "plddt_mean": 72.318,
+    "plddt_min": 60.16,
+    "pae_interface_mean": 16.241,
+    "pae_interface_min": 14.15,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 69.746
+  },
+  "toy0125": {
+    "ptm": 0.7157,
+    "iptm": 0.7908,
+    "plddt_mean": 81.103,
+    "plddt_min": 67.71,
+    "pae_interface_mean": 7.633,
+    "pae_interface_min": 5.21,
+    "n_interface_contacts": 68,
+    "plddt_interface_mean": 82.566
+  },
+  "toy0126": {
+    "ptm": 0.5476,
+    "iptm": 0.396,
+    "plddt_mean": 72.972,
+    "plddt_min": 63.27,
+    "pae_interface_mean": 12.435,
+    "pae_interface_min": 10.49,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.984
+  },
+  "toy0127": {
+    "ptm": 0.7401,
+    "iptm": 0.7813,
+    "plddt_mean": 81.816,
+    "plddt_min": 70.36,
+    "pae_interface_mean": 5.357,
+    "pae_interface_min": 2.65,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 81.734
+  },
+  "toy0128": {
+    "ptm": 0.8257,
+    "iptm": 0.7488,
+    "plddt_mean": 82.354,
+    "plddt_min": 66.27,
+    "pae_interface_mean": 8.998,
+    "pae_interface_min": 5.74,
+    "n_interface_contacts": 18,
+    "plddt_interface_mean": 80.928
+  },
+  "toy0129": {
+    "ptm": 0.7201,
+    "iptm": 0.7165,
+    "plddt_mean": 81.721,
+    "plddt_min": 73.37,
+    "pae_interface_mean": 7.249,
+    "pae_interface_min": 4.88,
+    "n_interface_contacts": 88,
+    "plddt_interface_mean": 79.771
+  },
+  "toy0130": {
+    "ptm": 0.5309,
+    "iptm": 0.3955,
+    "plddt_mean": 74.842,
+    "plddt_min": 63.56,
+    "pae_interface_mean": 13.033,
+    "pae_interface_min": 10.97,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.73
+  },
+  "toy0131": {
+    "ptm": 0.7924,
+    "iptm": 0.6619,
+    "plddt_mean": 81.924,
+    "plddt_min": 72.25,
+    "pae_interface_mean": 6.551,
+    "pae_interface_min": 4.16,
+    "n_interface_contacts": 100,
+    "plddt_interface_mean": 83.679
+  },
+  "toy0132": {
+    "ptm": 0.7257,
+    "iptm": 0.6712,
+    "plddt_mean": 81.443,
+    "plddt_min": 72.52,
+    "pae_interface_mean": 3.814,
+    "pae_interface_min": 0.86,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 77.803
+  },
+  "toy0133": {
+    "ptm": 0.8172,
+    "iptm": 0.7265,
+    "plddt_mean": 81.665,
+    "plddt_min": 71.73,
+    "pae_interface_mean": 4.72,
+    "pae_interface_min": 2.34,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 81.493
+  },
+  "toy0134": {
+    "ptm": 0.8005,
+    "iptm": 0.8413,
+    "plddt_mean": 84.612,
+    "plddt_min": 73.9,
+    "pae_interface_mean": 6.345,
+    "pae_interface_min": 3.69,
+    "n_interface_contacts": 125,
+    "plddt_interface_mean": 84.84
+  },
+  "toy0135": {
+    "ptm": 0.8142,
+    "iptm": 0.7018,
+    "plddt_mean": 82.378,
+    "plddt_min": 73.78,
+    "pae_interface_mean": 5.001,
+    "pae_interface_min": 2.8,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.443
+  },
+  "toy0136": {
+    "ptm": 0.6467,
+    "iptm": 0.4123,
+    "plddt_mean": 74.707,
+    "plddt_min": 62.55,
+    "pae_interface_mean": 13.76,
+    "pae_interface_min": 11.71,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.659
+  },
+  "toy0137": {
+    "ptm": 0.8595,
+    "iptm": 0.6881,
+    "plddt_mean": 82.283,
+    "plddt_min": 69.72,
+    "pae_interface_mean": 7.22,
+    "pae_interface_min": 4.29,
+    "n_interface_contacts": 114,
+    "plddt_interface_mean": 81.437
+  },
+  "toy0138": {
+    "ptm": 0.5684,
+    "iptm": 0.2971,
+    "plddt_mean": 75.572,
+    "plddt_min": 61.86,
+    "pae_interface_mean": 12.646,
+    "pae_interface_min": 10.18,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.497
+  },
+  "toy0139": {
+    "ptm": 0.6436,
+    "iptm": 0.433,
+    "plddt_mean": 73.992,
+    "plddt_min": 63.2,
+    "pae_interface_mean": 14.424,
+    "pae_interface_min": 12.42,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.001
+  },
+  "toy0140": {
+    "ptm": 0.8021,
+    "iptm": 0.7148,
+    "plddt_mean": 80.942,
+    "plddt_min": 68.77,
+    "pae_interface_mean": 5.982,
+    "pae_interface_min": 3.45,
+    "n_interface_contacts": 142,
+    "plddt_interface_mean": 82.699
+  },
+  "toy0141": {
+    "ptm": 0.6347,
+    "iptm": 0.5206,
+    "plddt_mean": 72.626,
+    "plddt_min": 61.27,
+    "pae_interface_mean": 12.685,
+    "pae_interface_min": 9.63,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.898
+  },
+  "toy0142": {
+    "ptm": 0.5764,
+    "iptm": 0.4,
+    "plddt_mean": 73.889,
+    "plddt_min": 63.14,
+    "pae_interface_mean": 13.335,
+    "pae_interface_min": 9.73,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.17
+  },
+  "toy0143": {
+    "ptm": 0.7432,
+    "iptm": 0.7836,
+    "plddt_mean": 82.705,
+    "plddt_min": 68.84,
+    "pae_interface_mean": 6.018,
+    "pae_interface_min": 3.88,
+    "n_interface_contacts": 114,
+    "plddt_interface_mean": 83.274
+  },
+  "toy0144": {
+    "ptm": 0.6304,
+    "iptm": 0.4249,
+    "plddt_mean": 75.184,
+    "plddt_min": 61.28,
+    "pae_interface_mean": 13.332,
+    "pae_interface_min": 11.16,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.759
+  },
+  "toy0145": {
+    "ptm": 0.8001,
+    "iptm": 0.569,
+    "plddt_mean": 84.663,
+    "plddt_min": 67.43,
+    "pae_interface_mean": 4.546,
+    "pae_interface_min": 1.97,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 84.703
+  },
+  "toy0146": {
+    "ptm": 0.8928,
+    "iptm": 0.6229,
+    "plddt_mean": 80.76,
+    "plddt_min": 67.65,
+    "pae_interface_mean": 4.098,
+    "pae_interface_min": 1.45,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 79.198
+  },
+  "toy0147": {
+    "ptm": 0.6915,
+    "iptm": 0.449,
+    "plddt_mean": 74.3,
+    "plddt_min": 61.79,
+    "pae_interface_mean": 15.075,
+    "pae_interface_min": 12.19,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.344
+  },
+  "toy0148": {
+    "ptm": 0.7974,
+    "iptm": 0.7275,
+    "plddt_mean": 80.74,
+    "plddt_min": 71.88,
+    "pae_interface_mean": 6.108,
+    "pae_interface_min": 3.74,
+    "n_interface_contacts": 110,
+    "plddt_interface_mean": 81.218
+  },
+  "toy0149": {
+    "ptm": 0.6222,
+    "iptm": 0.4722,
+    "plddt_mean": 77.344,
+    "plddt_min": 63.73,
+    "pae_interface_mean": 13.549,
+    "pae_interface_min": 11.22,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.779
+  },
+  "toy0150": {
+    "ptm": 0.754,
+    "iptm": 0.6585,
+    "plddt_mean": 80.76,
+    "plddt_min": 68.61,
+    "pae_interface_mean": 7.532,
+    "pae_interface_min": 4.57,
+    "n_interface_contacts": 80,
+    "plddt_interface_mean": 80.774
+  },
+  "toy0151": {
+    "ptm": 0.7043,
+    "iptm": 0.793,
+    "plddt_mean": 81.903,
+    "plddt_min": 63.39,
+    "pae_interface_mean": 4.141,
+    "pae_interface_min": 1.4,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 80.811
+  },
+  "toy0152": {
+    "ptm": 0.7608,
+    "iptm": 0.7796,
+    "plddt_mean": 80.604,
+    "plddt_min": 69.03,
+    "pae_interface_mean": 5.141,
+    "pae_interface_min": 2.75,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 78.811
+  },
+  "toy0153": {
+    "ptm": 0.8387,
+    "iptm": 0.7486,
+    "plddt_mean": 81.4,
+    "plddt_min": 68.23,
+    "pae_interface_mean": 5.531,
+    "pae_interface_min": 2.74,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 82.632
+  },
+  "toy0154": {
+    "ptm": 0.6181,
+    "iptm": 0.554,
+    "plddt_mean": 75.354,
+    "plddt_min": 63.22,
+    "pae_interface_mean": 15.787,
+    "pae_interface_min": 13.47,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.861
+  },
+  "toy0155": {
+    "ptm": 0.7086,
+    "iptm": 0.7673,
+    "plddt_mean": 82.814,
+    "plddt_min": 74.34,
+    "pae_interface_mean": 6.288,
+    "pae_interface_min": 3.63,
+    "n_interface_contacts": 123,
+    "plddt_interface_mean": 81.913
+  },
+  "toy0156": {
+    "ptm": 0.4906,
+    "iptm": 0.3259,
+    "plddt_mean": 71.904,
+    "plddt_min": 61.57,
+    "pae_interface_mean": 15.798,
+    "pae_interface_min": 13.25,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.576
+  },
+  "toy0157": {
+    "ptm": 0.7586,
+    "iptm": 0.7362,
+    "plddt_mean": 81.322,
+    "plddt_min": 68.25,
+    "pae_interface_mean": 7.914,
+    "pae_interface_min": 4.88,
+    "n_interface_contacts": 58,
+    "plddt_interface_mean": 81.688
+  },
+  "toy0158": {
+    "ptm": 0.5733,
+    "iptm": 0.4375,
+    "plddt_mean": 74.708,
+    "plddt_min": 64.13,
+    "pae_interface_mean": 15.396,
+    "pae_interface_min": 12.96,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.182
+  },
+  "toy0159": {
+    "ptm": 0.7317,
+    "iptm": 0.835,
+    "plddt_mean": 83.849,
+    "plddt_min": 74.21,
+    "pae_interface_mean": 4.019,
+    "pae_interface_min": 1.67,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 82.94
+  },
+  "toy0160": {
+    "ptm": 0.7528,
+    "iptm": 0.7816,
+    "plddt_mean": 82.501,
+    "plddt_min": 69.94,
+    "pae_interface_mean": 5.8,
+    "pae_interface_min": 3.65,
+    "n_interface_contacts": 125,
+    "plddt_interface_mean": 83.357
+  },
+  "toy0161": {
+    "ptm": 0.772,
+    "iptm": 0.6693,
+    "plddt_mean": 84.387,
+    "plddt_min": 74.16,
+    "pae_interface_mean": 4.325,
+    "pae_interface_min": 1.08,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 84.496
+  },
+  "toy0162": {
+    "ptm": 0.8597,
+    "iptm": 0.6605,
+    "plddt_mean": 82.605,
+    "plddt_min": 70.42,
+    "pae_interface_mean": 3.304,
+    "pae_interface_min": 0.93,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 79.807
+  },
+  "toy0163": {
+    "ptm": 0.8287,
+    "iptm": 0.6736,
+    "plddt_mean": 80.094,
+    "plddt_min": 67.71,
+    "pae_interface_mean": 7.448,
+    "pae_interface_min": 5.16,
+    "n_interface_contacts": 85,
+    "plddt_interface_mean": 81.648
+  },
+  "toy0164": {
+    "ptm": 0.5224,
+    "iptm": 0.4793,
+    "plddt_mean": 75.362,
+    "plddt_min": 64.45,
+    "pae_interface_mean": 16.741,
+    "pae_interface_min": 14.24,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.994
+  },
+  "toy0165": {
+    "ptm": 0.6947,
+    "iptm": 0.6779,
+    "plddt_mean": 80.84,
+    "plddt_min": 69.95,
+    "pae_interface_mean": 5.663,
+    "pae_interface_min": 3.09,
+    "n_interface_contacts": 125,
+    "plddt_interface_mean": 80.788
+  },
+  "toy0166": {
+    "ptm": 0.4989,
+    "iptm": 0.4676,
+    "plddt_mean": 75.38,
+    "plddt_min": 65.3,
+    "pae_interface_mean": 13.821,
+    "pae_interface_min": 10.97,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.711
+  },
+  "toy0167": {
+    "ptm": 0.784,
+    "iptm": 0.7369,
+    "plddt_mean": 80.827,
+    "plddt_min": 71.71,
+    "pae_interface_mean": 4.228,
+    "pae_interface_min": 2.16,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 78.767
+  },
+  "toy0168": {
+    "ptm": 0.8194,
+    "iptm": 0.7744,
+    "plddt_mean": 82.103,
+    "plddt_min": 72.59,
+    "pae_interface_mean": 9.175,
+    "pae_interface_min": 6.21,
+    "n_interface_contacts": 22,
+    "plddt_interface_mean": 84.764
+  },
+  "toy0169": {
+    "ptm": 0.7419,
+    "iptm": 0.7774,
+    "plddt_mean": 83.092,
+    "plddt_min": 70.46,
+    "pae_interface_mean": 6.606,
+    "pae_interface_min": 4.19,
+    "n_interface_contacts": 104,
+    "plddt_interface_mean": 83.272
+  },
+  "toy0170": {
+    "ptm": 0.8401,
+    "iptm": 0.7212,
+    "plddt_mean": 84.221,
+    "plddt_min": 70.67,
+    "pae_interface_mean": 8.376,
+    "pae_interface_min": 5.33,
+    "n_interface_contacts": 38,
+    "plddt_interface_mean": 85.337
+  },
+  "toy0171": {
+    "ptm": 0.6811,
+    "iptm": 0.464,
+    "plddt_mean": 72.887,
+    "plddt_min": 63.99,
+    "pae_interface_mean": 13.979,
+    "pae_interface_min": 10.12,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.89
+  },
+  "toy0172": {
+    "ptm": 0.7611,
+    "iptm": 0.839,
+    "plddt_mean": 78.523,
+    "plddt_min": 64.57,
+    "pae_interface_mean": 7.44,
+    "pae_interface_min": 5.11,
+    "n_interface_contacts": 84,
+    "plddt_interface_mean": 77.097
+  },
+  "toy0173": {
+    "ptm": 0.6251,
+    "iptm": 0.5582,
+    "plddt_mean": 73.825,
+    "plddt_min": 60.0,
+    "pae_interface_mean": 13.438,
+    "pae_interface_min": 10.81,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.932
+  },
+  "toy0174": {
+    "ptm": 0.8079,
+    "iptm": 0.8414,
+    "plddt_mean": 83.062,
+    "plddt_min": 69.62,
+    "pae_interface_mean": 7.84,
+    "pae_interface_min": 4.97,
+    "n_interface_contacts": 61,
+    "plddt_interface_mean": 84.261
+  },
+  "toy0175": {
+    "ptm": 0.7803,
+    "iptm": 0.5311,
+    "plddt_mean": 82.27,
+    "plddt_min": 72.08,
+    "pae_interface_mean": 4.5,
+    "pae_interface_min": 0.88,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 84.293
+  },
+  "toy0176": {
+    "ptm": 0.7644,
+    "iptm": 0.6233,
+    "plddt_mean": 83.271,
+    "plddt_min": 76.97,
+    "pae_interface_mean": 4.221,
+    "pae_interface_min": 1.81,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 81.007
+  },
+  "toy0177": {
+    "ptm": 0.6642,
+    "iptm": 0.303,
+    "plddt_mean": 73.716,
+    "plddt_min": 63.38,
+    "pae_interface_mean": 14.387,
+    "pae_interface_min": 11.72,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.504
+  },
+  "toy0178": {
+    "ptm": 0.85,
+    "iptm": 0.743,
+    "plddt_mean": 81.205,
+    "plddt_min": 71.25,
+    "pae_interface_mean": 4.641,
+    "pae_interface_min": 2.25,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 81.618
+  },
+  "toy0179": {
+    "ptm": 0.8551,
+    "iptm": 0.7064,
+    "plddt_mean": 81.895,
+    "plddt_min": 71.74,
+    "pae_interface_mean": 3.566,
+    "pae_interface_min": 0.99,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.002
+  },
+  "toy0180": {
+    "ptm": 0.5553,
+    "iptm": 0.3697,
+    "plddt_mean": 73.581,
+    "plddt_min": 63.33,
+    "pae_interface_mean": 12.407,
+    "pae_interface_min": 8.96,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.97
+  },
+  "toy0181": {
+    "ptm": 0.8182,
+    "iptm": 0.8273,
+    "plddt_mean": 81.734,
+    "plddt_min": 70.34,
+    "pae_interface_mean": 3.629,
+    "pae_interface_min": 0.5,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 83.676
+  },
+  "toy0182": {
+    "ptm": 0.6645,
+    "iptm": 0.4922,
+    "plddt_mean": 74.732,
+    "plddt_min": 64.5,
+    "pae_interface_mean": 14.088,
+    "pae_interface_min": 11.66,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.602
+  },
+  "toy0183": {
+    "ptm": 0.7838,
+    "iptm": 0.7097,
+    "plddt_mean": 81.923,
+    "plddt_min": 71.14,
+    "pae_interface_mean": 7.086,
+    "pae_interface_min": 4.48,
+    "n_interface_contacts": 101,
+    "plddt_interface_mean": 83.723
+  },
+  "toy0184": {
+    "ptm": 0.6489,
+    "iptm": 0.487,
+    "plddt_mean": 74.533,
+    "plddt_min": 61.42,
+    "pae_interface_mean": 12.929,
+    "pae_interface_min": 10.72,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.573
+  },
+  "toy0185": {
+    "ptm": 0.7601,
+    "iptm": 0.7972,
+    "plddt_mean": 82.856,
+    "plddt_min": 70.09,
+    "pae_interface_mean": 5.905,
+    "pae_interface_min": 2.87,
+    "n_interface_contacts": 107,
+    "plddt_interface_mean": 84.178
+  },
+  "toy0186": {
+    "ptm": 0.835,
+    "iptm": 0.5882,
+    "plddt_mean": 82.585,
+    "plddt_min": 67.8,
+    "pae_interface_mean": 6.762,
+    "pae_interface_min": 4.03,
+    "n_interface_contacts": 96,
+    "plddt_interface_mean": 82.011
+  },
+  "toy0187": {
+    "ptm": 0.7816,
+    "iptm": 0.5415,
+    "plddt_mean": 81.104,
+    "plddt_min": 70.8,
+    "pae_interface_mean": 6.335,
+    "pae_interface_min": 4.17,
+    "n_interface_contacts": 111,
+    "plddt_interface_mean": 81.618
+  },
+  "toy0188": {
+    "ptm": 0.7791,
+    "iptm": 0.694,
+    "plddt_mean": 80.081,
+    "plddt_min": 70.1,
+    "pae_interface_mean": 6.578,
+    "pae_interface_min": 2.19,
+    "n_interface_contacts": 110,
+    "plddt_interface_mean": 80.386
+  },
+  "toy0189": {
+    "ptm": 0.7074,
+    "iptm": 0.7254,
+    "plddt_mean": 85.071,
+    "plddt_min": 75.36,
+    "pae_interface_mean": 5.417,
+    "pae_interface_min": 2.36,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 85.411
+  },
+  "toy0190": {
+    "ptm": 0.8043,
+    "iptm": 0.6159,
+    "plddt_mean": 82.995,
+    "plddt_min": 71.68,
+    "pae_interface_mean": 4.415,
+    "pae_interface_min": 1.94,
+    "n_interface_contacts": 107,
+    "plddt_interface_mean": 82.416
+  },
+  "toy0191": {
+    "ptm": 0.5989,
+    "iptm": 0.4006,
+    "plddt_mean": 76.296,
+    "plddt_min": 66.88,
+    "pae_interface_mean": 13.88,
+    "pae_interface_min": 11.29,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 77.5
+  },
+  "toy0192": {
+    "ptm": 0.7549,
+    "iptm": 0.619,
+    "plddt_mean": 80.038,
+    "plddt_min": 67.77,
+    "pae_interface_mean": 7.655,
+    "pae_interface_min": 5.67,
+    "n_interface_contacts": 90,
+    "plddt_interface_mean": 80.567
+  },
+  "toy0193": {
+    "ptm": 0.7334,
+    "iptm": 0.3759,
+    "plddt_mean": 72.191,
+    "plddt_min": 61.23,
+    "pae_interface_mean": 11.233,
+    "pae_interface_min": 8.73,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 69.894
+  },
+  "toy0194": {
+    "ptm": 0.6165,
+    "iptm": 0.6926,
+    "plddt_mean": 76.302,
+    "plddt_min": 61.74,
+    "pae_interface_mean": 11.592,
+    "pae_interface_min": 9.54,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.29
+  },
+  "toy0195": {
+    "ptm": 0.8014,
+    "iptm": 0.6424,
+    "plddt_mean": 81.751,
+    "plddt_min": 71.48,
+    "pae_interface_mean": 8.644,
+    "pae_interface_min": 6.03,
+    "n_interface_contacts": 31,
+    "plddt_interface_mean": 78.704
+  },
+  "toy0196": {
+    "ptm": 0.7749,
+    "iptm": 0.4789,
+    "plddt_mean": 73.718,
+    "plddt_min": 63.94,
+    "pae_interface_mean": 15.559,
+    "pae_interface_min": 13.46,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.479
+  },
+  "toy0197": {
+    "ptm": 0.5916,
+    "iptm": 0.336,
+    "plddt_mean": 75.666,
+    "plddt_min": 63.12,
+    "pae_interface_mean": 12.973,
+    "pae_interface_min": 10.05,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.499
+  },
+  "toy0198": {
+    "ptm": 0.6972,
+    "iptm": 0.7117,
+    "plddt_mean": 82.252,
+    "plddt_min": 70.57,
+    "pae_interface_mean": 6.906,
+    "pae_interface_min": 4.79,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 83.67
+  },
+  "toy0199": {
+    "ptm": 0.5984,
+    "iptm": 0.4982,
+    "plddt_mean": 73.436,
+    "plddt_min": 61.65,
+    "pae_interface_mean": 11.409,
+    "pae_interface_min": 8.71,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.174
+  },
+  "toy0200": {
+    "ptm": 0.6251,
+    "iptm": 0.5191,
+    "plddt_mean": 72.347,
+    "plddt_min": 60.36,
+    "pae_interface_mean": 13.416,
+    "pae_interface_min": 10.66,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.558
+  },
+  "toy0201": {
+    "ptm": 0.7979,
+    "iptm": 0.6238,
+    "plddt_mean": 81.673,
+    "plddt_min": 68.46,
+    "pae_interface_mean": 3.255,
+    "pae_interface_min": 0.91,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 82.518
+  },
+  "toy0202": {
+    "ptm": 0.6236,
+    "iptm": 0.3577,
+    "plddt_mean": 73.364,
+    "plddt_min": 58.92,
+    "pae_interface_mean": 14.494,
+    "pae_interface_min": 11.58,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.702
+  },
+  "toy0203": {
+    "ptm": 0.6555,
+    "iptm": 0.4127,
+    "plddt_mean": 74.694,
+    "plddt_min": 61.47,
+    "pae_interface_mean": 11.797,
+    "pae_interface_min": 9.47,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.336
+  },
+  "toy0204": {
+    "ptm": 0.785,
+    "iptm": 0.6712,
+    "plddt_mean": 83.094,
+    "plddt_min": 73.55,
+    "pae_interface_mean": 2.186,
+    "pae_interface_min": 0.5,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 81.341
+  },
+  "toy0205": {
+    "ptm": 0.5561,
+    "iptm": 0.3772,
+    "plddt_mean": 73.043,
+    "plddt_min": 60.94,
+    "pae_interface_mean": 14.474,
+    "pae_interface_min": 11.85,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.686
+  },
+  "toy0206": {
+    "ptm": 0.8601,
+    "iptm": 0.6686,
+    "plddt_mean": 81.772,
+    "plddt_min": 69.67,
+    "pae_interface_mean": 5.171,
+    "pae_interface_min": 1.79,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 83.722
+  },
+  "toy0207": {
+    "ptm": 0.8079,
+    "iptm": 0.8628,
+    "plddt_mean": 83.468,
+    "plddt_min": 75.69,
+    "pae_interface_mean": 6.646,
+    "pae_interface_min": 4.28,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 82.417
+  },
+  "toy0208": {
+    "ptm": 0.6316,
+    "iptm": 0.3236,
+    "plddt_mean": 72.596,
+    "plddt_min": 64.03,
+    "pae_interface_mean": 11.295,
+    "pae_interface_min": 8.62,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 69.781
+  },
+  "toy0209": {
+    "ptm": 0.7793,
+    "iptm": 0.6625,
+    "plddt_mean": 84.777,
+    "plddt_min": 69.5,
+    "pae_interface_mean": 6.423,
+    "pae_interface_min": 4.06,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 81.716
+  },
+  "toy0210": {
+    "ptm": 0.6047,
+    "iptm": 0.4523,
+    "plddt_mean": 74.067,
+    "plddt_min": 65.03,
+    "pae_interface_mean": 14.835,
+    "pae_interface_min": 12.49,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.422
+  },
+  "toy0211": {
+    "ptm": 0.7756,
+    "iptm": 0.8397,
+    "plddt_mean": 83.777,
+    "plddt_min": 73.58,
+    "pae_interface_mean": 7.475,
+    "pae_interface_min": 4.51,
+    "n_interface_contacts": 100,
+    "plddt_interface_mean": 82.888
+  },
+  "toy0212": {
+    "ptm": 0.5744,
+    "iptm": 0.435,
+    "plddt_mean": 75.495,
+    "plddt_min": 64.76,
+    "pae_interface_mean": 12.689,
+    "pae_interface_min": 9.75,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.901
+  },
+  "toy0213": {
+    "ptm": 0.7373,
+    "iptm": 0.733,
+    "plddt_mean": 83.24,
+    "plddt_min": 70.97,
+    "pae_interface_mean": 6.47,
+    "pae_interface_min": 3.97,
+    "n_interface_contacts": 136,
+    "plddt_interface_mean": 81.676
+  },
+  "toy0214": {
+    "ptm": 0.6091,
+    "iptm": 0.438,
+    "plddt_mean": 76.03,
+    "plddt_min": 62.9,
+    "pae_interface_mean": 15.333,
+    "pae_interface_min": 13.01,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.411
+  },
+  "toy0215": {
+    "ptm": 0.8061,
+    "iptm": 0.7421,
+    "plddt_mean": 81.432,
+    "plddt_min": 69.04,
+    "pae_interface_mean": 4.239,
+    "pae_interface_min": 1.75,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.274
+  },
+  "toy0216": {
+    "ptm": 0.4346,
+    "iptm": 0.5454,
+    "plddt_mean": 73.55,
+    "plddt_min": 59.82,
+    "pae_interface_mean": 14.341,
+    "pae_interface_min": 11.37,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.469
+  },
+  "toy0217": {
+    "ptm": 0.5846,
+    "iptm": 0.4965,
+    "plddt_mean": 73.108,
+    "plddt_min": 63.18,
+    "pae_interface_mean": 13.28,
+    "pae_interface_min": 10.33,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.196
+  },
+  "toy0218": {
+    "ptm": 0.7203,
+    "iptm": 0.5526,
+    "plddt_mean": 79.811,
+    "plddt_min": 70.44,
+    "pae_interface_mean": 6.726,
+    "pae_interface_min": 4.12,
+    "n_interface_contacts": 123,
+    "plddt_interface_mean": 79.643
+  },
+  "toy0219": {
+    "ptm": 0.5348,
+    "iptm": 0.4234,
+    "plddt_mean": 75.559,
+    "plddt_min": 60.96,
+    "pae_interface_mean": 15.706,
+    "pae_interface_min": 12.51,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.293
+  },
+  "toy0220": {
+    "ptm": 0.7507,
+    "iptm": 0.3678,
+    "plddt_mean": 73.499,
+    "plddt_min": 62.23,
+    "pae_interface_mean": 13.008,
+    "pae_interface_min": 10.04,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.334
+  },
+  "toy0221": {
+    "ptm": 0.7319,
+    "iptm": 0.7905,
+    "plddt_mean": 81.246,
+    "plddt_min": 70.24,
+    "pae_interface_mean": 5.11,
+    "pae_interface_min": 2.7,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 77.319
+  },
+  "toy0222": {
+    "ptm": 0.6534,
+    "iptm": 0.4924,
+    "plddt_mean": 71.674,
+    "plddt_min": 61.64,
+    "pae_interface_mean": 13.836,
+    "pae_interface_min": 11.59,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.782
+  },
+  "toy0223": {
+    "ptm": 0.5996,
+    "iptm": 0.4,
+    "plddt_mean": 74.925,
+    "plddt_min": 64.61,
+    "pae_interface_mean": 12.445,
+    "pae_interface_min": 10.67,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.719
+  },
+  "toy0224": {
+    "ptm": 0.8253,
+    "iptm": 0.7991,
+    "plddt_mean": 82.173,
+    "plddt_min": 65.47,
+    "pae_interface_mean": 5.091,
+    "pae_interface_min": 3.04,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 84.081
+  },
+  "toy0225": {
+    "ptm": 0.6128,
+    "iptm": 0.4607,
+    "plddt_mean": 74.239,
+    "plddt_min": 63.24,
+    "pae_interface_mean": 12.589,
+    "pae_interface_min": 9.95,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.512
+  },
+  "toy0226": {
+    "ptm": 0.5938,
+    "iptm": 0.4381,
+    "plddt_mean": 73.379,
+    "plddt_min": 63.32,
+    "pae_interface_mean": 13.225,
+    "pae_interface_min": 10.46,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.287
+  },
+  "toy0227": {
+    "ptm": 0.7458,
+    "iptm": 0.7018,
+    "plddt_mean": 82.107,
+    "plddt_min": 65.69,
+    "pae_interface_mean": 8.963,
+    "pae_interface_min": 5.9,
+    "n_interface_contacts": 20,
+    "plddt_interface_mean": 82.197
+  },
+  "toy0228": {
+    "ptm": 0.6154,
+    "iptm": 0.3778,
+    "plddt_mean": 73.227,
+    "plddt_min": 62.51,
+    "pae_interface_mean": 12.812,
+    "pae_interface_min": 10.68,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.628
+  },
+  "toy0229": {
+    "ptm": 0.778,
+    "iptm": 0.3445,
+    "plddt_mean": 74.58,
+    "plddt_min": 66.3,
+    "pae_interface_mean": 13.946,
+    "pae_interface_min": 11.5,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.477
+  },
+  "toy0230": {
+    "ptm": 0.6663,
+    "iptm": 0.6758,
+    "plddt_mean": 82.768,
+    "plddt_min": 67.95,
+    "pae_interface_mean": 8.059,
+    "pae_interface_min": 5.13,
+    "n_interface_contacts": 63,
+    "plddt_interface_mean": 80.77
+  },
+  "toy0231": {
+    "ptm": 0.6185,
+    "iptm": 0.3915,
+    "plddt_mean": 74.793,
+    "plddt_min": 65.15,
+    "pae_interface_mean": 12.815,
+    "pae_interface_min": 9.88,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.363
+  },
+  "toy0232": {
+    "ptm": 0.5977,
+    "iptm": 0.3984,
+    "plddt_mean": 72.491,
+    "plddt_min": 62.72,
+    "pae_interface_mean": 11.356,
+    "pae_interface_min": 7.75,
+    "n_interface_contacts": 1,
+    "plddt_interface_mean": 70.37
+  },
+  "toy0233": {
+    "ptm": 0.8052,
+    "iptm": 0.8197,
+    "plddt_mean": 82.594,
+    "plddt_min": 69.9,
+    "pae_interface_mean": 7.151,
+    "pae_interface_min": 4.89,
+    "n_interface_contacts": 100,
+    "plddt_interface_mean": 82.234
+  },
+  "toy0234": {
+    "ptm": 0.5883,
+    "iptm": 0.4825,
+    "plddt_mean": 74.609,
+    "plddt_min": 64.17,
+    "pae_interface_mean": 10.876,
+    "pae_interface_min": 8.83,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.148
+  },
+  "toy0235": {
+    "ptm": 0.6427,
+    "iptm": 0.4286,
+    "plddt_mean": 74.903,
+    "plddt_min": 61.84,
+    "pae_interface_mean": 12.481,
+    "pae_interface_min": 10.0,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.877
+  },
+  "toy0236": {
+    "ptm": 0.7126,
+    "iptm": 0.7776,
+    "plddt_mean": 80.878,
+    "plddt_min": 67.9,
+    "pae_interface_mean": 6.622,
+    "pae_interface_min": 4.74,
+    "n_interface_contacts": 104,
+    "plddt_interface_mean": 84.304
+  },
+  "toy0237": {
+    "ptm": 0.6423,
+    "iptm": 0.4064,
+    "plddt_mean": 74.472,
+    "plddt_min": 63.85,
+    "pae_interface_mean": 12.482,
+    "pae_interface_min": 9.87,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.433
+  },
+  "toy0238": {
+    "ptm": 0.6357,
+    "iptm": 0.4446,
+    "plddt_mean": 75.619,
+    "plddt_min": 60.44,
+    "pae_interface_mean": 11.995,
+    "pae_interface_min": 9.5,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.612
+  },
+  "toy0239": {
+    "ptm": 0.7799,
+    "iptm": 0.8839,
+    "plddt_mean": 79.529,
+    "plddt_min": 69.08,
+    "pae_interface_mean": 5.852,
+    "pae_interface_min": 3.36,
+    "n_interface_contacts": 115,
+    "plddt_interface_mean": 80.569
+  },
+  "toy0240": {
+    "ptm": 0.8426,
+    "iptm": 0.6755,
+    "plddt_mean": 81.295,
+    "plddt_min": 69.62,
+    "pae_interface_mean": 7.051,
+    "pae_interface_min": 4.93,
+    "n_interface_contacts": 121,
+    "plddt_interface_mean": 82.192
+  },
+  "toy0241": {
+    "ptm": 0.7437,
+    "iptm": 0.7424,
+    "plddt_mean": 82.73,
+    "plddt_min": 64.71,
+    "pae_interface_mean": 5.719,
+    "pae_interface_min": 3.45,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 85.452
+  },
+  "toy0242": {
+    "ptm": 0.5524,
+    "iptm": 0.6013,
+    "plddt_mean": 74.724,
+    "plddt_min": 66.85,
+    "pae_interface_mean": 11.836,
+    "pae_interface_min": 9.34,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.949
+  },
+  "toy0243": {
+    "ptm": 0.6802,
+    "iptm": 0.5514,
+    "plddt_mean": 74.361,
+    "plddt_min": 60.23,
+    "pae_interface_mean": 10.693,
+    "pae_interface_min": 7.91,
+    "n_interface_contacts": 1,
+    "plddt_interface_mean": 75.378
+  },
+  "toy0244": {
+    "ptm": 0.8317,
+    "iptm": 0.6969,
+    "plddt_mean": 82.284,
+    "plddt_min": 72.04,
+    "pae_interface_mean": 6.318,
+    "pae_interface_min": 4.05,
+    "n_interface_contacts": 112,
+    "plddt_interface_mean": 83.303
+  },
+  "toy0245": {
+    "ptm": 0.5771,
+    "iptm": 0.3988,
+    "plddt_mean": 71.695,
+    "plddt_min": 64.82,
+    "pae_interface_mean": 12.697,
+    "pae_interface_min": 10.39,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.546
+  },
+  "toy0246": {
+    "ptm": 0.6044,
+    "iptm": 0.3975,
+    "plddt_mean": 74.273,
+    "plddt_min": 62.7,
+    "pae_interface_mean": 14.363,
+    "pae_interface_min": 11.28,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.312
+  },
+  "toy0247": {
+    "ptm": 0.5588,
+    "iptm": 0.3798,
+    "plddt_mean": 75.145,
+    "plddt_min": 66.2,
+    "pae_interface_mean": 13.422,
+    "pae_interface_min": 10.97,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.649
+  },
+  "toy0248": {
+    "ptm": 0.5102,
+    "iptm": 0.4376,
+    "plddt_mean": 73.372,
+    "plddt_min": 56.16,
+    "pae_interface_mean": 13.97,
+    "pae_interface_min": 11.44,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 69.522
+  },
+  "toy0249": {
+    "ptm": 0.5368,
+    "iptm": 0.4731,
+    "plddt_mean": 72.017,
+    "plddt_min": 64.79,
+    "pae_interface_mean": 14.005,
+    "pae_interface_min": 11.36,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.766
+  },
+  "toy0250": {
+    "ptm": 0.5614,
+    "iptm": 0.5753,
+    "plddt_mean": 75.599,
+    "plddt_min": 58.35,
+    "pae_interface_mean": 13.065,
+    "pae_interface_min": 10.77,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.818
+  },
+  "toy0251": {
+    "ptm": 0.6012,
+    "iptm": 0.5843,
+    "plddt_mean": 73.642,
+    "plddt_min": 64.59,
+    "pae_interface_mean": 11.315,
+    "pae_interface_min": 8.98,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.089
+  },
+  "toy0252": {
+    "ptm": 0.8218,
+    "iptm": 0.7151,
+    "plddt_mean": 80.573,
+    "plddt_min": 68.98,
+    "pae_interface_mean": 5.851,
+    "pae_interface_min": 3.29,
+    "n_interface_contacts": 133,
+    "plddt_interface_mean": 81.493
+  },
+  "toy0253": {
+    "ptm": 0.593,
+    "iptm": 0.353,
+    "plddt_mean": 72.872,
+    "plddt_min": 61.07,
+    "pae_interface_mean": 13.983,
+    "pae_interface_min": 11.41,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.559
+  },
+  "toy0254": {
+    "ptm": 0.8679,
+    "iptm": 0.774,
+    "plddt_mean": 81.811,
+    "plddt_min": 67.64,
+    "pae_interface_mean": 5.729,
+    "pae_interface_min": 3.41,
+    "n_interface_contacts": 123,
+    "plddt_interface_mean": 80.558
+  },
+  "toy0255": {
+    "ptm": 0.8277,
+    "iptm": 0.6611,
+    "plddt_mean": 80.862,
+    "plddt_min": 69.91,
+    "pae_interface_mean": 6.809,
+    "pae_interface_min": 4.68,
+    "n_interface_contacts": 120,
+    "plddt_interface_mean": 80.088
+  },
+  "toy0256": {
+    "ptm": 0.6484,
+    "iptm": 0.5858,
+    "plddt_mean": 74.652,
+    "plddt_min": 58.29,
+    "pae_interface_mean": 10.861,
+    "pae_interface_min": 8.14,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.221
+  },
+  "toy0257": {
+    "ptm": 0.7726,
+    "iptm": 0.6968,
+    "plddt_mean": 82.38,
+    "plddt_min": 74.36,
+    "pae_interface_mean": 6.177,
+    "pae_interface_min": 4.06,
+    "n_interface_contacts": 106,
+    "plddt_interface_mean": 81.219
+  },
+  "toy0258": {
+    "ptm": 0.8186,
+    "iptm": 0.7301,
+    "plddt_mean": 80.752,
+    "plddt_min": 69.98,
+    "pae_interface_mean": 6.406,
+    "pae_interface_min": 3.57,
+    "n_interface_contacts": 137,
+    "plddt_interface_mean": 80.76
+  },
+  "toy0259": {
+    "ptm": 0.8004,
+    "iptm": 0.6968,
+    "plddt_mean": 81.279,
+    "plddt_min": 67.95,
+    "pae_interface_mean": 5.418,
+    "pae_interface_min": 2.73,
+    "n_interface_contacts": 143,
+    "plddt_interface_mean": 79.923
+  },
+  "toy0260": {
+    "ptm": 0.8276,
+    "iptm": 0.7625,
+    "plddt_mean": 83.113,
+    "plddt_min": 76.66,
+    "pae_interface_mean": 5.745,
+    "pae_interface_min": 3.18,
+    "n_interface_contacts": 105,
+    "plddt_interface_mean": 85.214
+  },
+  "toy0261": {
+    "ptm": 0.6635,
+    "iptm": 0.3722,
+    "plddt_mean": 71.849,
+    "plddt_min": 59.07,
+    "pae_interface_mean": 13.743,
+    "pae_interface_min": 11.79,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.27
+  },
+  "toy0262": {
+    "ptm": 0.5952,
+    "iptm": 0.2689,
+    "plddt_mean": 74.32,
+    "plddt_min": 62.49,
+    "pae_interface_mean": 12.335,
+    "pae_interface_min": 9.62,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.923
+  },
+  "toy0263": {
+    "ptm": 0.5707,
+    "iptm": 0.504,
+    "plddt_mean": 73.814,
+    "plddt_min": 57.7,
+    "pae_interface_mean": 12.737,
+    "pae_interface_min": 10.73,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.406
+  },
+  "toy0264": {
+    "ptm": 0.5817,
+    "iptm": 0.4996,
+    "plddt_mean": 74.214,
+    "plddt_min": 60.56,
+    "pae_interface_mean": 13.822,
+    "pae_interface_min": 9.93,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.453
+  },
+  "toy0265": {
+    "ptm": 0.6077,
+    "iptm": 0.3651,
+    "plddt_mean": 71.971,
+    "plddt_min": 63.92,
+    "pae_interface_mean": 12.321,
+    "pae_interface_min": 9.94,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.093
+  },
+  "toy0266": {
+    "ptm": 0.4875,
+    "iptm": 0.3648,
+    "plddt_mean": 76.151,
+    "plddt_min": 68.09,
+    "pae_interface_mean": 13.487,
+    "pae_interface_min": 11.34,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.607
+  },
+  "toy0267": {
+    "ptm": 0.7898,
+    "iptm": 0.6087,
+    "plddt_mean": 81.264,
+    "plddt_min": 65.14,
+    "pae_interface_mean": 6.306,
+    "pae_interface_min": 3.89,
+    "n_interface_contacts": 120,
+    "plddt_interface_mean": 81.502
+  },
+  "toy0268": {
+    "ptm": 0.5952,
+    "iptm": 0.3406,
+    "plddt_mean": 73.615,
+    "plddt_min": 65.84,
+    "pae_interface_mean": 14.627,
+    "pae_interface_min": 11.7,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.889
+  },
+  "toy0269": {
+    "ptm": 0.7673,
+    "iptm": 0.6462,
+    "plddt_mean": 82.697,
+    "plddt_min": 71.69,
+    "pae_interface_mean": 5.299,
+    "pae_interface_min": 2.57,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 82.458
+  },
+  "toy0270": {
+    "ptm": 0.6756,
+    "iptm": 0.8188,
+    "plddt_mean": 83.124,
+    "plddt_min": 72.71,
+    "pae_interface_mean": 5.47,
+    "pae_interface_min": 2.92,
+    "n_interface_contacts": 134,
+    "plddt_interface_mean": 84.27
+  },
+  "toy0271": {
+    "ptm": 0.5512,
+    "iptm": 0.468,
+    "plddt_mean": 76.848,
+    "plddt_min": 62.09,
+    "pae_interface_mean": 13.334,
+    "pae_interface_min": 10.43,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 78.62
+  },
+  "toy0272": {
+    "ptm": 0.7552,
+    "iptm": 0.5412,
+    "plddt_mean": 73.487,
+    "plddt_min": 60.37,
+    "pae_interface_mean": 14.12,
+    "pae_interface_min": 11.71,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.279
+  },
+  "toy0273": {
+    "ptm": 0.5783,
+    "iptm": 0.4947,
+    "plddt_mean": 72.557,
+    "plddt_min": 63.49,
+    "pae_interface_mean": 10.039,
+    "pae_interface_min": 6.9,
+    "n_interface_contacts": 3,
+    "plddt_interface_mean": 74.457
+  },
+  "toy0274": {
+    "ptm": 0.6417,
+    "iptm": 0.6433,
+    "plddt_mean": 81.514,
+    "plddt_min": 73.1,
+    "pae_interface_mean": 4.58,
+    "pae_interface_min": 1.58,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 80.743
+  },
+  "toy0275": {
+    "ptm": 0.5819,
+    "iptm": 0.3695,
+    "plddt_mean": 72.922,
+    "plddt_min": 61.77,
+    "pae_interface_mean": 13.479,
+    "pae_interface_min": 11.16,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.312
+  },
+  "toy0276": {
+    "ptm": 0.8032,
+    "iptm": 0.8883,
+    "plddt_mean": 80.166,
+    "plddt_min": 65.42,
+    "pae_interface_mean": 7.812,
+    "pae_interface_min": 5.67,
+    "n_interface_contacts": 76,
+    "plddt_interface_mean": 81.117
+  },
+  "toy0277": {
+    "ptm": 0.5034,
+    "iptm": 0.4742,
+    "plddt_mean": 73.201,
+    "plddt_min": 60.14,
+    "pae_interface_mean": 13.029,
+    "pae_interface_min": 10.68,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.242
+  },
+  "toy0278": {
+    "ptm": 0.5987,
+    "iptm": 0.2676,
+    "plddt_mean": 74.91,
+    "plddt_min": 62.98,
+    "pae_interface_mean": 12.727,
+    "pae_interface_min": 10.06,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.967
+  },
+  "toy0279": {
+    "ptm": 0.7674,
+    "iptm": 0.6665,
+    "plddt_mean": 82.606,
+    "plddt_min": 70.37,
+    "pae_interface_mean": 6.471,
+    "pae_interface_min": 3.3,
+    "n_interface_contacts": 134,
+    "plddt_interface_mean": 82.323
+  },
+  "toy0280": {
+    "ptm": 0.7861,
+    "iptm": 0.7146,
+    "plddt_mean": 83.147,
+    "plddt_min": 73.73,
+    "pae_interface_mean": 5.912,
+    "pae_interface_min": 2.84,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 80.78
+  },
+  "toy0281": {
+    "ptm": 0.6624,
+    "iptm": 0.3411,
+    "plddt_mean": 73.054,
+    "plddt_min": 60.89,
+    "pae_interface_mean": 12.439,
+    "pae_interface_min": 9.79,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.117
+  },
+  "toy0282": {
+    "ptm": 0.4376,
+    "iptm": 0.4418,
+    "plddt_mean": 75.545,
+    "plddt_min": 65.53,
+    "pae_interface_mean": 14.602,
+    "pae_interface_min": 12.27,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.904
+  },
+  "toy0283": {
+    "ptm": 0.8259,
+    "iptm": 0.693,
+    "plddt_mean": 81.038,
+    "plddt_min": 67.85,
+    "pae_interface_mean": 4.869,
+    "pae_interface_min": 2.28,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 80.76
+  },
+  "toy0284": {
+    "ptm": 0.6094,
+    "iptm": 0.2323,
+    "plddt_mean": 74.722,
+    "plddt_min": 59.64,
+    "pae_interface_mean": 10.188,
+    "pae_interface_min": 6.79,
+    "n_interface_contacts": 3,
+    "plddt_interface_mean": 72.913
+  },
+  "toy0285": {
+    "ptm": 0.6128,
+    "iptm": 0.5364,
+    "plddt_mean": 73.939,
+    "plddt_min": 64.88,
+    "pae_interface_mean": 11.829,
+    "pae_interface_min": 9.62,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.237
+  },
+  "toy0286": {
+    "ptm": 0.5941,
+    "iptm": 0.3526,
+    "plddt_mean": 74.76,
+    "plddt_min": 66.28,
+    "pae_interface_mean": 9.601,
+    "pae_interface_min": 7.41,
+    "n_interface_contacts": 4,
+    "plddt_interface_mean": 73.636
+  },
+  "toy0287": {
+    "ptm": 0.5368,
+    "iptm": 0.3565,
+    "plddt_mean": 72.43,
+    "plddt_min": 61.48,
+    "pae_interface_mean": 13.542,
+    "pae_interface_min": 11.45,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.702
+  },
+  "toy0288": {
+    "ptm": 0.6566,
+    "iptm": 0.3986,
+    "plddt_mean": 76.077,
+    "plddt_min": 66.84,
+    "pae_interface_mean": 14.994,
+    "pae_interface_min": 12.46,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.079
+  },
+  "toy0289": {
+    "ptm": 0.6253,
+    "iptm": 0.3516,
+    "plddt_mean": 74.596,
+    "plddt_min": 63.48,
+    "pae_interface_mean": 16.248,
+    "pae_interface_min": 13.38,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.642
+  },
+  "toy0290": {
+    "ptm": 0.7961,
+    "iptm": 0.628,
+    "plddt_mean": 81.556,
+    "plddt_min": 67.69,
+    "pae_interface_mean": 5.144,
+    "pae_interface_min": 3.01,
+    "n_interface_contacts": 106,
+    "plddt_interface_mean": 83.103
+  },
+  "toy0291": {
+    "ptm": 0.8337,
+    "iptm": 0.7709,
+    "plddt_mean": 81.353,
+    "plddt_min": 72.79,
+    "pae_interface_mean": 6.71,
+    "pae_interface_min": 4.28,
+    "n_interface_contacts": 96,
+    "plddt_interface_mean": 80.723
+  },
+  "toy0292": {
+    "ptm": 0.5497,
+    "iptm": 0.308,
+    "plddt_mean": 74.845,
+    "plddt_min": 64.09,
+    "pae_interface_mean": 16.492,
+    "pae_interface_min": 13.9,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.53
+  },
+  "toy0293": {
+    "ptm": 0.7308,
+    "iptm": 0.8146,
+    "plddt_mean": 79.728,
+    "plddt_min": 63.48,
+    "pae_interface_mean": 7.161,
+    "pae_interface_min": 4.46,
+    "n_interface_contacts": 113,
+    "plddt_interface_mean": 79.33
+  },
+  "toy0294": {
+    "ptm": 0.7494,
+    "iptm": 0.7395,
+    "plddt_mean": 82.153,
+    "plddt_min": 67.21,
+    "pae_interface_mean": 7.468,
+    "pae_interface_min": 5.18,
+    "n_interface_contacts": 77,
+    "plddt_interface_mean": 82.337
+  },
+  "toy0295": {
+    "ptm": 0.8089,
+    "iptm": 0.6821,
+    "plddt_mean": 80.117,
+    "plddt_min": 66.25,
+    "pae_interface_mean": 8.364,
+    "pae_interface_min": 5.4,
+    "n_interface_contacts": 40,
+    "plddt_interface_mean": 83.78
+  },
+  "toy0296": {
+    "ptm": 0.7808,
+    "iptm": 0.7027,
+    "plddt_mean": 81.765,
+    "plddt_min": 70.42,
+    "pae_interface_mean": 4.797,
+    "pae_interface_min": 2.13,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.201
+  },
+  "toy0297": {
+    "ptm": 0.5847,
+    "iptm": 0.3693,
+    "plddt_mean": 74.927,
+    "plddt_min": 63.31,
+    "pae_interface_mean": 12.782,
+    "pae_interface_min": 9.0,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.446
+  },
+  "toy0298": {
+    "ptm": 0.5581,
+    "iptm": 0.4672,
+    "plddt_mean": 74.283,
+    "plddt_min": 58.59,
+    "pae_interface_mean": 13.548,
+    "pae_interface_min": 11.03,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.662
+  },
+  "toy0299": {
+    "ptm": 0.6437,
+    "iptm": 0.6415,
+    "plddt_mean": 82.11,
+    "plddt_min": 70.74,
+    "pae_interface_mean": 3.311,
+    "pae_interface_min": 1.11,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 83.573
+  },
+  "toy0300": {
+    "ptm": 0.6632,
+    "iptm": 0.4657,
+    "plddt_mean": 73.064,
+    "plddt_min": 60.59,
+    "pae_interface_mean": 14.194,
+    "pae_interface_min": 11.73,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.042
+  },
+  "toy0301": {
+    "ptm": 0.7517,
+    "iptm": 0.7076,
+    "plddt_mean": 82.157,
+    "plddt_min": 70.98,
+    "pae_interface_mean": 5.203,
+    "pae_interface_min": 2.58,
+    "n_interface_contacts": 107,
+    "plddt_interface_mean": 82.282
+  },
+  "toy0302": {
+    "ptm": 0.8203,
+    "iptm": 0.7975,
+    "plddt_mean": 82.055,
+    "plddt_min": 72.07,
+    "pae_interface_mean": 6.94,
+    "pae_interface_min": 4.84,
+    "n_interface_contacts": 102,
+    "plddt_interface_mean": 81.394
+  },
+  "toy0303": {
+    "ptm": 0.5537,
+    "iptm": 0.533,
+    "plddt_mean": 74.792,
+    "plddt_min": 62.92,
+    "pae_interface_mean": 14.169,
+    "pae_interface_min": 11.48,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.299
+  },
+  "toy0304": {
+    "ptm": 0.8755,
+    "iptm": 0.7713,
+    "plddt_mean": 83.625,
+    "plddt_min": 75.46,
+    "pae_interface_mean": 3.149,
+    "pae_interface_min": 1.01,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 82.488
+  },
+  "toy0305": {
+    "ptm": 0.5286,
+    "iptm": 0.4931,
+    "plddt_mean": 73.42,
+    "plddt_min": 61.76,
+    "pae_interface_mean": 14.309,
+    "pae_interface_min": 11.75,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.637
+  },
+  "toy0306": {
+    "ptm": 0.5796,
+    "iptm": 0.4246,
+    "plddt_mean": 72.961,
+    "plddt_min": 63.78,
+    "pae_interface_mean": 13.556,
+    "pae_interface_min": 10.9,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.728
+  },
+  "toy0307": {
+    "ptm": 0.8101,
+    "iptm": 0.7185,
+    "plddt_mean": 79.781,
+    "plddt_min": 68.81,
+    "pae_interface_mean": 7.31,
+    "pae_interface_min": 5.35,
+    "n_interface_contacts": 82,
+    "plddt_interface_mean": 78.401
+  },
+  "toy0308": {
+    "ptm": 0.7611,
+    "iptm": 0.7745,
+    "plddt_mean": 81.318,
+    "plddt_min": 69.49,
+    "pae_interface_mean": 5.353,
+    "pae_interface_min": 2.46,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 81.909
+  },
+  "toy0309": {
+    "ptm": 0.5007,
+    "iptm": 0.3639,
+    "plddt_mean": 72.583,
+    "plddt_min": 61.37,
+    "pae_interface_mean": 10.661,
+    "pae_interface_min": 8.64,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.273
+  },
+  "toy0310": {
+    "ptm": 0.7984,
+    "iptm": 0.7731,
+    "plddt_mean": 80.607,
+    "plddt_min": 67.6,
+    "pae_interface_mean": 4.3,
+    "pae_interface_min": 1.58,
+    "n_interface_contacts": 126,
+    "plddt_interface_mean": 80.003
+  },
+  "toy0311": {
+    "ptm": 0.8243,
+    "iptm": 0.7291,
+    "plddt_mean": 80.899,
+    "plddt_min": 73.71,
+    "pae_interface_mean": 6.827,
+    "pae_interface_min": 3.81,
+    "n_interface_contacts": 99,
+    "plddt_interface_mean": 81.888
+  },
+  "toy0312": {
+    "ptm": 0.615,
+    "iptm": 0.5376,
+    "plddt_mean": 73.58,
+    "plddt_min": 64.68,
+    "pae_interface_mean": 12.415,
+    "pae_interface_min": 8.98,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.242
+  },
+  "toy0313": {
+    "ptm": 0.652,
+    "iptm": 0.3427,
+    "plddt_mean": 75.526,
+    "plddt_min": 63.99,
+    "pae_interface_mean": 13.333,
+    "pae_interface_min": 10.77,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 77.969
+  },
+  "toy0314": {
+    "ptm": 0.8087,
+    "iptm": 0.7097,
+    "plddt_mean": 82.339,
+    "plddt_min": 74.06,
+    "pae_interface_mean": 5.464,
+    "pae_interface_min": 3.45,
+    "n_interface_contacts": 134,
+    "plddt_interface_mean": 82.374
+  },
+  "toy0315": {
+    "ptm": 0.9017,
+    "iptm": 0.7692,
+    "plddt_mean": 81.5,
+    "plddt_min": 71.59,
+    "pae_interface_mean": 5.535,
+    "pae_interface_min": 3.1,
+    "n_interface_contacts": 134,
+    "plddt_interface_mean": 82.972
+  },
+  "toy0316": {
+    "ptm": 0.6753,
+    "iptm": 0.7788,
+    "plddt_mean": 81.987,
+    "plddt_min": 69.99,
+    "pae_interface_mean": 8.399,
+    "pae_interface_min": 6.01,
+    "n_interface_contacts": 38,
+    "plddt_interface_mean": 80.268
+  },
+  "toy0317": {
+    "ptm": 0.6064,
+    "iptm": 0.4602,
+    "plddt_mean": 74.885,
+    "plddt_min": 65.89,
+    "pae_interface_mean": 9.417,
+    "pae_interface_min": 6.44,
+    "n_interface_contacts": 10,
+    "plddt_interface_mean": 75.573
+  },
+  "toy0318": {
+    "ptm": 0.5562,
+    "iptm": 0.4392,
+    "plddt_mean": 75.758,
+    "plddt_min": 66.84,
+    "pae_interface_mean": 12.434,
+    "pae_interface_min": 10.3,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.761
+  },
+  "toy0319": {
+    "ptm": 0.5417,
+    "iptm": 0.5375,
+    "plddt_mean": 73.385,
+    "plddt_min": 55.9,
+    "pae_interface_mean": 12.101,
+    "pae_interface_min": 9.65,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.622
+  },
+  "toy0320": {
+    "ptm": 0.5594,
+    "iptm": 0.3886,
+    "plddt_mean": 72.666,
+    "plddt_min": 61.77,
+    "pae_interface_mean": 13.381,
+    "pae_interface_min": 9.78,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.159
+  },
+  "toy0321": {
+    "ptm": 0.7269,
+    "iptm": 0.6664,
+    "plddt_mean": 82.118,
+    "plddt_min": 70.73,
+    "pae_interface_mean": 6.794,
+    "pae_interface_min": 3.89,
+    "n_interface_contacts": 129,
+    "plddt_interface_mean": 81.226
+  },
+  "toy0322": {
+    "ptm": 0.8539,
+    "iptm": 0.7805,
+    "plddt_mean": 83.656,
+    "plddt_min": 70.92,
+    "pae_interface_mean": 6.929,
+    "pae_interface_min": 4.19,
+    "n_interface_contacts": 121,
+    "plddt_interface_mean": 83.449
+  },
+  "toy0323": {
+    "ptm": 0.7146,
+    "iptm": 0.418,
+    "plddt_mean": 73.851,
+    "plddt_min": 64.0,
+    "pae_interface_mean": 13.575,
+    "pae_interface_min": 10.77,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.373
+  },
+  "toy0324": {
+    "ptm": 0.8594,
+    "iptm": 0.8553,
+    "plddt_mean": 81.824,
+    "plddt_min": 65.37,
+    "pae_interface_mean": 3.756,
+    "pae_interface_min": 1.35,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 84.244
+  },
+  "toy0325": {
+    "ptm": 0.7666,
+    "iptm": 0.7689,
+    "plddt_mean": 81.263,
+    "plddt_min": 67.77,
+    "pae_interface_mean": 6.221,
+    "pae_interface_min": 3.44,
+    "n_interface_contacts": 131,
+    "plddt_interface_mean": 81.077
+  },
+  "toy0326": {
+    "ptm": 0.8741,
+    "iptm": 0.8683,
+    "plddt_mean": 81.713,
+    "plddt_min": 75.13,
+    "pae_interface_mean": 7.829,
+    "pae_interface_min": 5.1,
+    "n_interface_contacts": 64,
+    "plddt_interface_mean": 80.324
+  },
+  "toy0327": {
+    "ptm": 0.5195,
+    "iptm": 0.384,
+    "plddt_mean": 73.95,
+    "plddt_min": 61.92,
+    "pae_interface_mean": 13.325,
+    "pae_interface_min": 10.49,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.513
+  },
+  "toy0328": {
+    "ptm": 0.6057,
+    "iptm": 0.4949,
+    "plddt_mean": 73.876,
+    "plddt_min": 63.31,
+    "pae_interface_mean": 12.539,
+    "pae_interface_min": 9.56,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.792
+  },
+  "toy0329": {
+    "ptm": 0.5067,
+    "iptm": 0.447,
+    "plddt_mean": 75.381,
+    "plddt_min": 63.62,
+    "pae_interface_mean": 12.547,
+    "pae_interface_min": 9.48,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.094
+  },
+  "toy0330": {
+    "ptm": 0.8256,
+    "iptm": 0.6815,
+    "plddt_mean": 82.981,
+    "plddt_min": 71.17,
+    "pae_interface_mean": 5.253,
+    "pae_interface_min": 2.56,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 84.094
+  },
+  "toy0331": {
+    "ptm": 0.6921,
+    "iptm": 0.4549,
+    "plddt_mean": 75.41,
+    "plddt_min": 63.63,
+    "pae_interface_mean": 9.215,
+    "pae_interface_min": 6.65,
+    "n_interface_contacts": 15,
+    "plddt_interface_mean": 75.458
+  },
+  "toy0332": {
+    "ptm": 0.8633,
+    "iptm": 0.8762,
+    "plddt_mean": 81.518,
+    "plddt_min": 66.91,
+    "pae_interface_mean": 6.898,
+    "pae_interface_min": 4.77,
+    "n_interface_contacts": 97,
+    "plddt_interface_mean": 82.627
+  },
+  "toy0333": {
+    "ptm": 0.8329,
+    "iptm": 0.6092,
+    "plddt_mean": 82.785,
+    "plddt_min": 76.18,
+    "pae_interface_mean": 8.414,
+    "pae_interface_min": 6.31,
+    "n_interface_contacts": 43,
+    "plddt_interface_mean": 79.873
+  },
+  "toy0334": {
+    "ptm": 0.699,
+    "iptm": 0.443,
+    "plddt_mean": 75.398,
+    "plddt_min": 65.58,
+    "pae_interface_mean": 13.303,
+    "pae_interface_min": 10.76,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.521
+  },
+  "toy0335": {
+    "ptm": 0.6004,
+    "iptm": 0.5371,
+    "plddt_mean": 76.007,
+    "plddt_min": 63.56,
+    "pae_interface_mean": 15.053,
+    "pae_interface_min": 11.84,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.452
+  },
+  "toy0336": {
+    "ptm": 0.8043,
+    "iptm": 0.8091,
+    "plddt_mean": 79.755,
+    "plddt_min": 71.02,
+    "pae_interface_mean": 7.265,
+    "pae_interface_min": 3.48,
+    "n_interface_contacts": 88,
+    "plddt_interface_mean": 79.079
+  },
+  "toy0337": {
+    "ptm": 0.8033,
+    "iptm": 0.6935,
+    "plddt_mean": 81.589,
+    "plddt_min": 73.92,
+    "pae_interface_mean": 8.131,
+    "pae_interface_min": 5.38,
+    "n_interface_contacts": 50,
+    "plddt_interface_mean": 81.264
+  },
+  "toy0338": {
+    "ptm": 0.5253,
+    "iptm": 0.4242,
+    "plddt_mean": 72.792,
+    "plddt_min": 61.8,
+    "pae_interface_mean": 11.981,
+    "pae_interface_min": 9.65,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.606
+  },
+  "toy0339": {
+    "ptm": 0.6994,
+    "iptm": 0.5613,
+    "plddt_mean": 75.622,
+    "plddt_min": 69.11,
+    "pae_interface_mean": 15.78,
+    "pae_interface_min": 13.8,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 77.936
+  },
+  "toy0340": {
+    "ptm": 0.5321,
+    "iptm": 0.3649,
+    "plddt_mean": 74.941,
+    "plddt_min": 64.45,
+    "pae_interface_mean": 13.558,
+    "pae_interface_min": 10.74,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.026
+  },
+  "toy0341": {
+    "ptm": 0.7396,
+    "iptm": 0.5588,
+    "plddt_mean": 84.987,
+    "plddt_min": 73.8,
+    "pae_interface_mean": 8.144,
+    "pae_interface_min": 5.42,
+    "n_interface_contacts": 46,
+    "plddt_interface_mean": 87.652
+  },
+  "toy0342": {
+    "ptm": 0.5889,
+    "iptm": 0.2936,
+    "plddt_mean": 72.31,
+    "plddt_min": 62.24,
+    "pae_interface_mean": 12.648,
+    "pae_interface_min": 10.57,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.394
+  },
+  "toy0343": {
+    "ptm": 0.5638,
+    "iptm": 0.4952,
+    "plddt_mean": 72.077,
+    "plddt_min": 61.61,
+    "pae_interface_mean": 13.39,
+    "pae_interface_min": 11.01,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.83
+  },
+  "toy0344": {
+    "ptm": 0.6549,
+    "iptm": 0.5202,
+    "plddt_mean": 73.716,
+    "plddt_min": 64.88,
+    "pae_interface_mean": 15.637,
+    "pae_interface_min": 12.26,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.013
+  },
+  "toy0345": {
+    "ptm": 0.5503,
+    "iptm": 0.4762,
+    "plddt_mean": 72.481,
+    "plddt_min": 63.77,
+    "pae_interface_mean": 12.606,
+    "pae_interface_min": 10.01,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.977
+  },
+  "toy0346": {
+    "ptm": 0.5457,
+    "iptm": 0.2828,
+    "plddt_mean": 75.264,
+    "plddt_min": 60.97,
+    "pae_interface_mean": 13.162,
+    "pae_interface_min": 11.03,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 78.646
+  },
+  "toy0347": {
+    "ptm": 0.8389,
+    "iptm": 0.7121,
+    "plddt_mean": 81.35,
+    "plddt_min": 69.7,
+    "pae_interface_mean": 5.166,
+    "pae_interface_min": 2.04,
+    "n_interface_contacts": 116,
+    "plddt_interface_mean": 78.047
+  },
+  "toy0348": {
+    "ptm": 0.801,
+    "iptm": 0.7553,
+    "plddt_mean": 81.527,
+    "plddt_min": 73.24,
+    "pae_interface_mean": 8.208,
+    "pae_interface_min": 5.73,
+    "n_interface_contacts": 50,
+    "plddt_interface_mean": 81.381
+  },
+  "toy0349": {
+    "ptm": 0.547,
+    "iptm": 0.3451,
+    "plddt_mean": 76.161,
+    "plddt_min": 62.99,
+    "pae_interface_mean": 13.422,
+    "pae_interface_min": 11.11,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.274
+  },
+  "toy0350": {
+    "ptm": 0.4928,
+    "iptm": 0.4231,
+    "plddt_mean": 75.104,
+    "plddt_min": 59.02,
+    "pae_interface_mean": 15.343,
+    "pae_interface_min": 12.16,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.703
+  },
+  "toy0351": {
+    "ptm": 0.5957,
+    "iptm": 0.4852,
+    "plddt_mean": 72.875,
+    "plddt_min": 59.04,
+    "pae_interface_mean": 15.901,
+    "pae_interface_min": 13.63,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.619
+  },
+  "toy0352": {
+    "ptm": 0.7425,
+    "iptm": 0.6875,
+    "plddt_mean": 81.352,
+    "plddt_min": 67.01,
+    "pae_interface_mean": 5.267,
+    "pae_interface_min": 2.85,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 84.474
+  },
+  "toy0353": {
+    "ptm": 0.6956,
+    "iptm": 0.8018,
+    "plddt_mean": 82.575,
+    "plddt_min": 68.8,
+    "pae_interface_mean": 5.65,
+    "pae_interface_min": 2.63,
+    "n_interface_contacts": 104,
+    "plddt_interface_mean": 83.602
+  },
+  "toy0354": {
+    "ptm": 0.7516,
+    "iptm": 0.6512,
+    "plddt_mean": 79.674,
+    "plddt_min": 66.08,
+    "pae_interface_mean": 5.434,
+    "pae_interface_min": 2.96,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.243
+  },
+  "toy0355": {
+    "ptm": 0.507,
+    "iptm": 0.2242,
+    "plddt_mean": 74.796,
+    "plddt_min": 66.83,
+    "pae_interface_mean": 12.847,
+    "pae_interface_min": 10.36,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 76.277
+  },
+  "toy0356": {
+    "ptm": 0.812,
+    "iptm": 0.7693,
+    "plddt_mean": 80.987,
+    "plddt_min": 67.52,
+    "pae_interface_mean": 6.6,
+    "pae_interface_min": 3.51,
+    "n_interface_contacts": 132,
+    "plddt_interface_mean": 81.282
+  },
+  "toy0357": {
+    "ptm": 0.7728,
+    "iptm": 0.6963,
+    "plddt_mean": 84.072,
+    "plddt_min": 75.11,
+    "pae_interface_mean": 4.399,
+    "pae_interface_min": 1.1,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 84.996
+  },
+  "toy0358": {
+    "ptm": 0.5306,
+    "iptm": 0.4919,
+    "plddt_mean": 73.998,
+    "plddt_min": 64.61,
+    "pae_interface_mean": 11.414,
+    "pae_interface_min": 8.99,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.029
+  },
+  "toy0359": {
+    "ptm": 0.5604,
+    "iptm": 0.4769,
+    "plddt_mean": 74.078,
+    "plddt_min": 64.72,
+    "pae_interface_mean": 10.669,
+    "pae_interface_min": 7.86,
+    "n_interface_contacts": 4,
+    "plddt_interface_mean": 75.012
+  },
+  "toy0360": {
+    "ptm": 0.6622,
+    "iptm": 0.5066,
+    "plddt_mean": 73.477,
+    "plddt_min": 64.19,
+    "pae_interface_mean": 12.905,
+    "pae_interface_min": 10.83,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.764
+  },
+  "toy0361": {
+    "ptm": 0.6349,
+    "iptm": 0.3743,
+    "plddt_mean": 72.758,
+    "plddt_min": 57.27,
+    "pae_interface_mean": 13.023,
+    "pae_interface_min": 10.48,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.953
+  },
+  "toy0362": {
+    "ptm": 0.5754,
+    "iptm": 0.521,
+    "plddt_mean": 73.75,
+    "plddt_min": 60.94,
+    "pae_interface_mean": 15.4,
+    "pae_interface_min": 13.25,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.252
+  },
+  "toy0363": {
+    "ptm": 0.6276,
+    "iptm": 0.3979,
+    "plddt_mean": 73.51,
+    "plddt_min": 62.41,
+    "pae_interface_mean": 13.669,
+    "pae_interface_min": 11.32,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.463
+  },
+  "toy0364": {
+    "ptm": 0.5633,
+    "iptm": 0.3645,
+    "plddt_mean": 71.539,
+    "plddt_min": 48.0,
+    "pae_interface_mean": 14.452,
+    "pae_interface_min": 11.76,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 71.301
+  },
+  "toy0365": {
+    "ptm": 0.7258,
+    "iptm": 0.7041,
+    "plddt_mean": 82.131,
+    "plddt_min": 67.43,
+    "pae_interface_mean": 8.542,
+    "pae_interface_min": 5.91,
+    "n_interface_contacts": 31,
+    "plddt_interface_mean": 83.717
+  },
+  "toy0366": {
+    "ptm": 0.7872,
+    "iptm": 0.7478,
+    "plddt_mean": 85.117,
+    "plddt_min": 76.39,
+    "pae_interface_mean": 4.174,
+    "pae_interface_min": 1.9,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 87.72
+  },
+  "toy0367": {
+    "ptm": 0.7906,
+    "iptm": 0.81,
+    "plddt_mean": 82.546,
+    "plddt_min": 67.38,
+    "pae_interface_mean": 4.764,
+    "pae_interface_min": 1.7,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 83.58
+  },
+  "toy0368": {
+    "ptm": 0.7386,
+    "iptm": 0.674,
+    "plddt_mean": 83.184,
+    "plddt_min": 67.18,
+    "pae_interface_mean": 7.66,
+    "pae_interface_min": 5.55,
+    "n_interface_contacts": 94,
+    "plddt_interface_mean": 83.169
+  },
+  "toy0369": {
+    "ptm": 0.7936,
+    "iptm": 0.9043,
+    "plddt_mean": 82.075,
+    "plddt_min": 70.66,
+    "pae_interface_mean": 5.381,
+    "pae_interface_min": 3.56,
+    "n_interface_contacts": 108,
+    "plddt_interface_mean": 82.176
+  },
+  "toy0370": {
+    "ptm": 0.79,
+    "iptm": 0.7813,
+    "plddt_mean": 81.062,
+    "plddt_min": 70.14,
+    "pae_interface_mean": 6.91,
+    "pae_interface_min": 4.38,
+    "n_interface_contacts": 121,
+    "plddt_interface_mean": 80.29
+  },
+  "toy0371": {
+    "ptm": 0.6417,
+    "iptm": 0.4576,
+    "plddt_mean": 73.252,
+    "plddt_min": 67.42,
+    "pae_interface_mean": 15.727,
+    "pae_interface_min": 13.43,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.499
+  },
+  "toy0372": {
+    "ptm": 0.7351,
+    "iptm": 0.7298,
+    "plddt_mean": 81.397,
+    "plddt_min": 64.17,
+    "pae_interface_mean": 4.396,
+    "pae_interface_min": 2.29,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 80.579
+  },
+  "toy0373": {
+    "ptm": 0.6557,
+    "iptm": 0.3536,
+    "plddt_mean": 73.748,
+    "plddt_min": 62.66,
+    "pae_interface_mean": 10.776,
+    "pae_interface_min": 8.47,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.944
+  },
+  "toy0374": {
+    "ptm": 0.6394,
+    "iptm": 0.3673,
+    "plddt_mean": 73.941,
+    "plddt_min": 60.45,
+    "pae_interface_mean": 11.923,
+    "pae_interface_min": 9.75,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.349
+  },
+  "toy0375": {
+    "ptm": 0.5231,
+    "iptm": 0.4329,
+    "plddt_mean": 74.51,
+    "plddt_min": 61.4,
+    "pae_interface_mean": 11.981,
+    "pae_interface_min": 9.54,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.476
+  },
+  "toy0376": {
+    "ptm": 0.6357,
+    "iptm": 0.3603,
+    "plddt_mean": 73.928,
+    "plddt_min": 63.54,
+    "pae_interface_mean": 15.348,
+    "pae_interface_min": 13.06,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.531
+  },
+  "toy0377": {
+    "ptm": 0.5246,
+    "iptm": 0.4913,
+    "plddt_mean": 73.529,
+    "plddt_min": 59.46,
+    "pae_interface_mean": 13.896,
+    "pae_interface_min": 11.66,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.948
+  },
+  "toy0378": {
+    "ptm": 0.5539,
+    "iptm": 0.3502,
+    "plddt_mean": 76.806,
+    "plddt_min": 65.7,
+    "pae_interface_mean": 12.692,
+    "pae_interface_min": 9.65,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 77.229
+  },
+  "toy0379": {
+    "ptm": 0.6787,
+    "iptm": 0.3747,
+    "plddt_mean": 73.484,
+    "plddt_min": 58.28,
+    "pae_interface_mean": 16.03,
+    "pae_interface_min": 13.72,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.31
+  },
+  "toy0380": {
+    "ptm": 0.662,
+    "iptm": 0.3848,
+    "plddt_mean": 75.894,
+    "plddt_min": 67.36,
+    "pae_interface_mean": 13.907,
+    "pae_interface_min": 11.46,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.793
+  },
+  "toy0381": {
+    "ptm": 0.7044,
+    "iptm": 0.7673,
+    "plddt_mean": 80.991,
+    "plddt_min": 63.57,
+    "pae_interface_mean": 6.583,
+    "pae_interface_min": 4.31,
+    "n_interface_contacts": 118,
+    "plddt_interface_mean": 83.732
+  },
+  "toy0382": {
+    "ptm": 0.5188,
+    "iptm": 0.4152,
+    "plddt_mean": 73.572,
+    "plddt_min": 62.31,
+    "pae_interface_mean": 12.934,
+    "pae_interface_min": 10.62,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.506
+  },
+  "toy0383": {
+    "ptm": 0.6093,
+    "iptm": 0.451,
+    "plddt_mean": 75.432,
+    "plddt_min": 68.18,
+    "pae_interface_mean": 13.288,
+    "pae_interface_min": 9.8,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.608
+  },
+  "toy0384": {
+    "ptm": 0.8489,
+    "iptm": 0.7736,
+    "plddt_mean": 81.064,
+    "plddt_min": 69.33,
+    "pae_interface_mean": 6.478,
+    "pae_interface_min": 4.11,
+    "n_interface_contacts": 131,
+    "plddt_interface_mean": 81.276
+  },
+  "toy0385": {
+    "ptm": 0.6386,
+    "iptm": 0.4314,
+    "plddt_mean": 73.932,
+    "plddt_min": 59.78,
+    "pae_interface_mean": 11.3,
+    "pae_interface_min": 8.73,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 78.238
+  },
+  "toy0386": {
+    "ptm": 0.5885,
+    "iptm": 0.4383,
+    "plddt_mean": 72.476,
+    "plddt_min": 61.8,
+    "pae_interface_mean": 13.451,
+    "pae_interface_min": 11.06,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 70.603
+  },
+  "toy0387": {
+    "ptm": 0.6186,
+    "iptm": 0.4489,
+    "plddt_mean": 73.306,
+    "plddt_min": 64.81,
+    "pae_interface_mean": 13.825,
+    "pae_interface_min": 11.32,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 74.673
+  },
+  "toy0388": {
+    "ptm": 0.6236,
+    "iptm": 0.4446,
+    "plddt_mean": 74.936,
+    "plddt_min": 54.22,
+    "pae_interface_mean": 13.988,
+    "pae_interface_min": 11.6,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 72.82
+  },
+  "toy0389": {
+    "ptm": 0.7861,
+    "iptm": 0.6592,
+    "plddt_mean": 82.983,
+    "plddt_min": 68.61,
+    "pae_interface_mean": 3.841,
+    "pae_interface_min": 0.9,
+    "n_interface_contacts": 144,
+    "plddt_interface_mean": 83.158
+  },
+  "toy0390": {
+    "ptm": 0.7982,
+    "iptm": 0.7083,
+    "plddt_mean": 81.526,
+    "plddt_min": 68.57,
+    "pae_interface_mean": 4.691,
+    "pae_interface_min": 1.33,
+    "n_interface_contacts": 135,
+    "plddt_interface_mean": 82.434
+  },
+  "toy0391": {
+    "ptm": 0.7439,
+    "iptm": 0.7612,
+    "plddt_mean": 81.089,
+    "plddt_min": 65.56,
+    "pae_interface_mean": 5.501,
+    "pae_interface_min": 2.3,
+    "n_interface_contacts": 143,
+    "plddt_interface_mean": 81.069
+  },
+  "toy0392": {
+    "ptm": 0.7939,
+    "iptm": 0.7532,
+    "plddt_mean": 83.218,
+    "plddt_min": 72.84,
+    "pae_interface_mean": 6.168,
+    "pae_interface_min": 3.12,
+    "n_interface_contacts": 122,
+    "plddt_interface_mean": 85.9
+  },
+  "toy0393": {
+    "ptm": 0.5081,
+    "iptm": 0.462,
+    "plddt_mean": 76.668,
+    "plddt_min": 60.0,
+    "pae_interface_mean": 15.415,
+    "pae_interface_min": 13.4,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 75.808
+  },
+  "toy0394": {
+    "ptm": 0.7066,
+    "iptm": 0.7993,
+    "plddt_mean": 81.75,
+    "plddt_min": 70.89,
+    "pae_interface_mean": 7.846,
+    "pae_interface_min": 5.17,
+    "n_interface_contacts": 61,
+    "plddt_interface_mean": 81.403
+  },
+  "toy0395": {
+    "ptm": 0.73,
+    "iptm": 0.6841,
+    "plddt_mean": 84.084,
+    "plddt_min": 75.44,
+    "pae_interface_mean": 4.086,
+    "pae_interface_min": 1.53,
+    "n_interface_contacts": 117,
+    "plddt_interface_mean": 84.963
+  },
+  "toy0396": {
+    "ptm": 0.7145,
+    "iptm": 0.3648,
+    "plddt_mean": 74.815,
+    "plddt_min": 64.19,
+    "pae_interface_mean": 14.462,
+    "pae_interface_min": 12.4,
+    "n_interface_contacts": 0,
+    "plddt_interface_mean": 73.922
+  },
+  "toy0397": {
+    "ptm": 0.7718,
+    "iptm": 0.6436,
+    "plddt_mean": 81.799,
+    "plddt_min": 64.13,
+    "pae_interface_mean": 5.681,
+    "pae_interface_min": 3.19,
+    "n_interface_contacts": 116,
+    "plddt_interface_mean": 84.802
+  }
+}

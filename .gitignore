@@ -1,0 +1,56 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.cache/
+.tcr_cliff_cache/
+*.npy
+*.npz
+
+# tcr-cliff run artifacts (keep the bundled toy fixtures)
+runs/
+outputs/
+artifacts/
+*.ckpt
+*.pt
+*.joblib
+!src/tcr_cliff/data/toy/**
+
+# Downloaded raw datasets (never commit upstream data; see DATASETS.md)
+data/raw/
+data/external/
+
+# GitHub Actions workflow (push blocked without `workflow` token scope; a reference
+# copy lives at docs/github-actions-ci.yml — move it here to enable CI).
+.github/workflows/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
